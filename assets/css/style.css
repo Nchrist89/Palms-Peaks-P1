@@ -29,7 +29,7 @@
 nav {
     height: 65px;
     background-color: var(--eternity);
-    background-image: url(/assets/images/navbar1.png);
+    background-image: url(assets/images/navbar1.png);
     background-size: 200px;
     display: flex;
     justify-content: flex-end;
