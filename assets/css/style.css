@@ -34,12 +34,13 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-bottom: 2px solid var(--neon-orange);
 }
 
-nav #logo {
+#logo {
     height: 40px;
     width: 40px;
-    border: 2px solid #FF5C00;
+    border: 2px solid var(--neon-orange);
     background-position: center;
     border-radius: 50%;
     background-color: whitesmoke;
@@ -86,6 +87,15 @@ nav .fa-solid {
 .open-sidebar-button,
 .close-sidebar-button {
     display: none;
+}
+
+/* Banner styles */
+
+.banner > img {
+    width: 100%;
+    height: fit-content;
+    max-height: 500px;
+    background-color: var(--brown-derby);
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -136,3 +146,7 @@ nav .fa-solid {
         z-index: 9;
     }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px)/*
+
