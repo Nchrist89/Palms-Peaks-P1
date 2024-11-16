@@ -9,6 +9,11 @@
 
 /* Global Styles */
 
+body {
+    font-family: "klee One", sans-serif;
+    color: var(--brown-derby);
+}
+
 :root {
     /* CSS HEX color palette*/
     --neon-orange: #ff5e00;
@@ -29,8 +34,9 @@
 nav {
     height: 65px;
     background-color: var(--eternity);
-    background-image: url(assets/images/navbar1.png);
-    background-size: 200px;
+    background-image: url(/assets/images/wood-cracked-aged5.png);
+    background-position: bottom;
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -97,6 +103,20 @@ nav .fa-solid {
     max-height: 500px;
     background-color: var(--brown-derby);
 }
+
+/* Main content styles */
+
+.about {
+    display: flex;
+    text-align: left;
+    padding: 50px;
+    background-color: var(--mint-julep);
+    border: 20px solid var(--brown-derby);
+    font-size: 1.3rem;
+    margin: 20px 30px;
+}
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
