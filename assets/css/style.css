@@ -11,17 +11,18 @@
 
 body {
     font-family: "klee One", sans-serif;
-    color: var(--brown-derby);
     font-size: 1.2rem;
     background-color: var(--brown-derby);
 }
 
-h1 {
-    margin: 15px 0;
+.image {
+    display: flex;
 }
 
-p {
-    margin-bottom: 15px;
+h2 {
+    padding-top: 10px;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
 }
 
 :root {
@@ -107,28 +108,50 @@ nav .fa-solid {
 }
 
 /* banner styles */
-.container-image {
+.container-banner {
     height: 100%;
     width: 100%;
+    background-color: var(--copper-canyon);
 }
 
-.container-image img {
+.container-banner img {
     height: fit-content;
     width: 100%;
 
 }
 
+/* Featured section */
+
+.container-featured {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.container-featured img {
+    height: 300px;
+    width: 100%;
+    padding: 0;
+
+}
+
 /* Main content styles */
 
-.center-text {
-    text-align: center;
+#welcome {
+    padding-top: 20px;
 }
 
 .heading {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: "Shojumaru";
     color: var(--neon-orange);
+    letter-spacing: 2px;
+    background-color: var(--brown-derby);
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    text-shadow: black 4px 4px 4px;
 }
 
 #welcome-note {
@@ -137,11 +160,15 @@ nav .fa-solid {
 }
 
 .section {
-    padding: 10px;
     background-color: var(--mint-julep);
-    border: 2px solid var(--neon-orange);
-    font-size: 1rem;
-    margin: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid var(--neon-orange);
+}
+
+.section-text {
+    padding: 20px;
 }
 
 /* Resort page */
