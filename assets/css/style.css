@@ -106,19 +106,11 @@ nav .fa-solid {
     display: none;
 }
 
-/* Banner styles */
-
-.banner {
-    background-color: var(--eternity);
-}
-
 /* Hero section */
-.banner img {
-    background-color: var(--brown-derby);
-    width: 100vw;
-    height: max-content;
-    object-fit: cover;
+.banner > img {
+    width: 100%;
 }
+
 
 /* Main content styles */
 
@@ -147,7 +139,6 @@ nav .fa-solid {
 }
 
 /* Resort page */
-
 
 .resort > img {
     width: 100%;
@@ -202,12 +193,4 @@ nav .fa-solid {
         left: 0;
         z-index: 9;
     }
-
-
 }
-
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px)/*
-
