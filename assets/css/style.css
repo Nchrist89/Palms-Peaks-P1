@@ -181,7 +181,6 @@ nav .fa-solid {
     border: none;
 }
 
-
 /* Resort page */
 .resort > img {
     width: 100%;
@@ -189,6 +188,27 @@ nav .fa-solid {
 
 }
 
+/* Footer content styles */
+
+.contact {
+    font-size: 1.5rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 2px;
+    background-color: var(--eternity);
+    padding-bottom: 1rem;
+    text-shadow: black 6px 6px 6px;
+}
+
+.contact-details {
+    padding: 20px;
+    background-color: var(--eternity);
+    color: var(--white-smoke);
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
