@@ -123,9 +123,10 @@ nav .fa-solid {
     font-family: "Shojumaru";
     color: var(--neon-orange);
     letter-spacing: 2px;
+    background-image: url("../images/wood-aged.png");
     background-color: var(--brown-derby);
     padding-bottom: 1rem;
-    text-shadow: black 6px 6px 6px;
+    text-shadow: var(--eternity) 5px 5px 5px;
 }
 
 #welcome-note {
