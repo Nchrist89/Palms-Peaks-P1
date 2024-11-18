@@ -52,7 +52,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-bottom: 2px solid var(--neon-orange);
+    border-bottom: 3px solid var(--neon-orange);
 }
 
 #logo {
@@ -134,8 +134,6 @@ nav .fa-solid {
     font-size: 1.1rem;
     font-weight: bold;
     padding-top: 0 !important;
-
-
 }
 
 .section {
@@ -234,6 +232,19 @@ nav .fa-solid {
 }
 
 .container-bar img {
+    height: 300px;
+    width: 100%;
+    padding: 0;
+}
+
+/* Rides section */
+.container-rides {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.container-rides img {
     height: 300px;
     width: 100%;
     padding: 0;
