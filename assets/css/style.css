@@ -163,91 +163,30 @@ nav .fa-solid {
 }
 
 /* Featured section */
-.container-featured {
+.container-features {
     height: 100%;
     width: 100%;
     display: flex;
-
 }
 
-.container-featured img {
+.container-features img {
     height: 300px;
     width: 100%;
     padding: 0;
 }
 
-/* Explore section */
-.container-explore {
+#map iframe {
     height: 100%;
     width: 100%;
-    display: flex;
-
+    border: none;
 }
 
-.container-explore img {
-    height: 300px;
-    width: 100%;
-    padding: 0;
-}
 
 /* Resort page */
 .resort > img {
     width: 100%;
     max-height: 400px;
 
-}
-
-/* Wildlife section */
-.container-wildlife {
-    height: 100%;
-    width: 100%;
-    display: flex;
-
-}
-
-.container-wildlife img {
-    height: 300px;
-    width: 100%;
-    padding: 0;
-}
-
-/* Camping section */
-.container-camping {
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
-.container-camping img {
-    height: 300px;
-    width: 100%;
-    padding: 0;
-}
-
-/* Bar section */
-.container-bar {
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
-.container-bar img {
-    height: 300px;
-    width: 100%;
-    padding: 0;
-}
-
-/* Rides section */
-.container-rides {
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
-.container-rides img {
-    height: 300px;
-    width: 100%;
-    padding: 0;
 }
 
 
