@@ -195,6 +195,21 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.container-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--eternity);
+    color: var(--white-smoke);
+    padding: 20px;
+}
+
+.social-link {
+    padding: 10px;
+    font-size: 2rem;
+    color: var(--keppel);
+    text-decoration: none;
+}
 
 .contact {
     font-size: 1.5rem;
@@ -215,6 +230,8 @@ footer {
     letter-spacing: 1px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.8em;
     justify-content: space-around;
 }
 
