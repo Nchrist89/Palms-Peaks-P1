@@ -115,6 +115,7 @@ nav .fa-solid {
     color: var(--rainforest-depths);
     padding-top: 20px;
     border-top: 5px solid var(--copper-canyon);
+    text-align: center;
 }
 
 .heading {
@@ -137,23 +138,22 @@ nav .fa-solid {
     padding-top: 0 !important;
 }
 
-.section {
+.home-feature {
     background-image: url("../images/leaves-background.png");
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-align: center;
     border-bottom: 3px solid var(--neon-orange);
 }
 
-.section-text {
+.home-feature-text {
     color: var(--rainforest-depths);
-    padding: 20px;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* banner styles */
 .container-banner {
     height: fit-content;
-    width: 100%;
+    max-width: 100%;
     background-color: var(--copper-canyon);
 }
 
@@ -161,13 +161,6 @@ nav .fa-solid {
     height: fit-content;
     width: 100%;
 
-}
-
-/* Featured section */
-.container-features {
-    height: 100%;
-    width: 100%;
-    display: flex;
 }
 
 .container-features img {
@@ -281,5 +274,14 @@ footer {
         top: 0;
         left: 0;
         z-index: 9;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container-features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
