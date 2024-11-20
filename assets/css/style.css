@@ -8,7 +8,6 @@
 }
 
 /* Global Styles */
-
 body {
     font-family: "klee One", sans-serif;
     font-size: 1.2rem;
@@ -37,7 +36,6 @@ h2 {
 }
 
 /* Navigation / sidebar styles */
-
 nav {
     height: 65px;
     background-color: var(--eternity);
@@ -119,33 +117,6 @@ nav .fa-solid {
 
 /* Main content styles */
 
-.home-features {
-    background-image: url("../images/leaves-background.png");
-}
-
-.home-features img {
-    display: flex;
-    height: 300px;
-    width: 100%;
-    padding: 0;
-}
-
-.home-features p {
-    color: var(--rainforest-depths);
-    padding: 25px;
-    font-weight: bold;
-    text-align: center;
-    border-bottom: 3px solid var(--neon-orange);
-    background-image: url("../images/leaves-background.png");
-}
-
-#welcome {
-    color: var(--rainforest-depths);
-    padding-top: 20px;
-    border-top: 5px solid var(--copper-canyon);
-    text-align: center;
-}
-
 .heading {
     text-align: center;
     font-size: 1.5rem;
@@ -156,6 +127,28 @@ nav .fa-solid {
     background-color: var(--brown-derby);
     padding-bottom: 1rem;
     text-shadow: var(--eternity) 5px 5px 5px;
+}
+
+.home-features p {
+    color: var(--rainforest-depths);
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid var(--neon-orange);
+}
+
+.home-features img {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    padding: 0;
+}
+
+#welcome {
+    color: var(--rainforest-depths);
+    padding-top: 20px;
+    border-top: 5px solid var(--copper-canyon);
+    text-align: center;
 }
 
 #welcome-note {
@@ -172,10 +165,19 @@ nav .fa-solid {
     padding: 0;
 }
 
+/* Removes the empty line below the map */
+.map-container {
+    display: flex;
+}
+
 #map iframe {
     height: 100%;
     width: 100%;
     border: none;
+}
+
+.home-features {
+    background-image: url("../images/leaves-background.png");
 }
 
 /* Resort page */
