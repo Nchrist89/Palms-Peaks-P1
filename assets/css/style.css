@@ -15,11 +15,6 @@ body {
     background-color: var(--brown-derby);
 }
 
-/* Removes vacant line pixels showing below the image */
-.image {
-    display: flex;
-}
-
 h2 {
     padding-top: 10px;
     border-top: 5px solid var(--copper-canyon);
@@ -109,7 +104,40 @@ nav .fa-solid {
     display: none;
 }
 
+/* banner styles */
+.container-banner {
+    height: fit-content;
+    max-width: 100%;
+    background-color: var(--copper-canyon);
+}
+
+.container-banner img {
+    height: fit-content;
+    width: 100%;
+
+}
+
 /* Main content styles */
+
+.home-features {
+    background-image: url("../images/leaves-background.png");
+}
+
+.home-features img {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    padding: 0;
+}
+
+.home-features p {
+    color: var(--rainforest-depths);
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid var(--neon-orange);
+    background-image: url("../images/leaves-background.png");
+}
 
 #welcome {
     color: var(--rainforest-depths);
@@ -138,32 +166,7 @@ nav .fa-solid {
     padding-top: 0 !important;
 }
 
-.home-feature {
-    background-image: url("../images/leaves-background.png");
-    border-bottom: 3px solid var(--neon-orange);
-}
-
-.home-feature-text {
-    color: var(--rainforest-depths);
-    padding: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* banner styles */
-.container-banner {
-    height: fit-content;
-    max-width: 100%;
-    background-color: var(--copper-canyon);
-}
-
-.container-banner img {
-    height: fit-content;
-    width: 100%;
-
-}
-
-.container-features img {
+.home-feature img {
     height: 300px;
     width: 100%;
     padding: 0;
@@ -274,14 +277,5 @@ footer {
         top: 0;
         left: 0;
         z-index: 9;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .container-features {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
     }
 }
