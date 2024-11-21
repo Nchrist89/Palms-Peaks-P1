@@ -145,13 +145,16 @@ nav .fa-solid {
     border-bottom: 3px solid var(--neon-orange);
 }
 
+.home-features {
+    /* applying flex removes vacant line underneath image */
+    flex-grow: 1;
+}
+
 .home-features img {
     display: flex;
     height: 320px;
     width: 100%;
-    max-width: 500px;
     padding: 0;
-
 }
 
 #welcome {
@@ -168,6 +171,7 @@ nav .fa-solid {
 
 .welcome-box {
     background-image: url("../images/leaves-bg.webp");
+    border-bottom: 3px solid var(--neon-orange);
 }
 
 .feature-box {
@@ -318,7 +322,6 @@ footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: stretch;
         justify-content: space-around;
         margin-top: 25px;
     }
