@@ -39,7 +39,7 @@ h2 {
 nav {
     height: 65px;
     background-color: var(--eternity);
-    background-image: url("../images/wood-aged.png");
+    background-image: url("../images/wood-aged.webp");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -123,7 +123,7 @@ nav .fa-solid {
     font-family: "Shojumaru";
     color: var(--neon-orange);
     letter-spacing: 2px;
-    background-image: url("../images/wood-aged.png");
+    background-image: url("../images/wood-aged.webp");
     background-color: var(--brown-derby);
     padding-bottom: 1rem;
     text-shadow: var(--eternity) 5px 5px 5px;
@@ -177,7 +177,7 @@ nav .fa-solid {
 }
 
 .home-features {
-    background-image: url("../images/leaves-background.png");
+    background-image: url("../images/leaves-bg.webp");
 }
 
 /* Resort page */
