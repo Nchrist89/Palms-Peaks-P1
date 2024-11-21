@@ -219,8 +219,20 @@ footer {
     gap: 20px;
 }
 
+.container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--eternity);
+    flex-grow: 1;
+
+}
+
+.contact-box {
+    flex-basis: 400px;
+}
+
 .social-link {
-    padding: 10px;
     font-size: 2rem;
     color: var(--keppel);
     text-decoration: none;
@@ -234,20 +246,16 @@ footer {
     background-color: var(--eternity);
     padding-bottom: 1.5rem;
     text-shadow: black 6px 6px 6px;
+    text-align: left;
 }
 
 .contact-details {
-    padding: 20px;
-    margin-top: 10px;
     background-color: var(--eternity);
     color: var(--white-smoke);
     font-weight: bold;
     letter-spacing: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    line-height: 1.8em;
-    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Extra small devices (phones, 600px and down) */
