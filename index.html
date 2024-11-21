@@ -27,7 +27,7 @@
         <!-- Navigation and sidebar links. Code help from "coding2go" Youtube channel -->
         <nav>
             <a href="index.html">
-                <img id="logo" src="assets/images/Parrot.png" alt="A colorful parrot">
+                <img id="logo" src="assets/images/parrot-logo.webp" alt="A colorful parrot">
             </a>
             <input type="checkbox" id="sidebar-active">
             <label for="sidebar-active" class="open-sidebar-button">
@@ -59,10 +59,10 @@
 
         <!-- Welcome Note -->
         <section class="home-features">
-            <div>
+            <div class="welcome-box">
                 <h1 id="welcome"><em>Welcome!</em></h1>
                 <br>
-                <p id="welcome-note" class="home-feature-text"><em>Palms and Peaks is a luscious tropical resort
+                <p id="welcome-note"><em>Palms and Peaks is a luscious tropical resort
                         accessible to all
                         people. Relax, adventure and take on our new rides!<br><br>Visit us for your next great
                         adventure!</em>
@@ -75,21 +75,21 @@
         into one section which show what is
         to offer in the resort.
         -->
-        <section class="home-features">
+        <section class="home-features container">
             <!-- New feature -->
-            <div>
+            <div class="feature-box">
                 <img src="assets/images/volcane.webp"
                     alt="A picture of The new Volcane rollercoaster and people riding it erupting with excitement!">
                 <h2 class="heading">Volcane</h2>
                 <p>Erupt with excitement for our upcoming new feature ride! Volcane joins our line up of
                     rollercoasters.<br><br>It is a fast exhilarating new ride with many twists and turns, corkscrews and
                     loops. The ride is located near the base of the Volcano and winds through the valleys.<br><br>For
-                    thrillseekers and all who dare! The new volcane rollercoaster will be arriving to Palms and Peaks
-                    Spring 2025! </p>
+                    thrillseekers and all who dare!
+                </p>
             </div>
 
             <!-- Wildlife feature -->
-            <div>
+            <div class="feature-box">
                 <img src="assets/images/3-parrots.webp" alt="A picture of three parrots perched on a branch">
                 <h2 class="heading">Wildlife</h2>
                 <p>Experience the wildlife up close at our sanctuary!<br><br>Explore the
@@ -97,17 +97,15 @@
                     indoor
                     habitats teeming with fascinating creatures, or venture outside to visit our lagoons and enclosures,
                     where you can observe a diverse array of reptiles such as snakes and lizards in their natural
-                    settings as well as majestic elephants in spacious habitats
+                    settings as well as majestic elephants.
                 </p>
             </div>
 
             <!-- Exploration feature  -->
-            <div>
+            <div class="feature-box">
                 <img src="assets/images/explore.webp" alt="A picture of the park with an open landscape">
                 <h2 class="heading">Exploration</h2>
-                <p>Dare to venture into the heart of the lush rainforest, where vibrant flora
-                    and
-                    fauna abound and every path leads to a hidden wonder!
+                <p>Dare to venture into the heart of the lush rainforest.
                     <br><br>
                     Hike through winding trails that unveil stunning vistas and breathtaking waterfalls, each step
                     bringing you closer to nature's masterpieces.<br><br>For those seeking a deeper connection, embark
@@ -118,7 +116,7 @@
             </div>
 
             <!-- Shops feature -->
-            <div>
+            <div class="feature-box">
                 <img src="assets/images/shop.webp"
                     alt="A picture of one of the cafe and souvenir shops which shoes a diverse range of unforgettable keepsakes and other items.">
                 <h2 class="heading">Shops</h2>
@@ -126,21 +124,18 @@
                     beachwear and local crafts
                     to essentials and unforgettable keepsakes.<br><br>Don't forget to visit our souvenir shops, where
                     you can
-                    find the perfect mementos to remind you of your stay.<br><br>Whether you're looking for a cozy spot
-                    to
-                    unwind or the perfect gift to take home. Our shops have something for everyone.
+                    find the perfect mementos to remind you of your stay.<br><br>Whether you're looking for a cozy spot or the perfect gift to take home. Our shops have something for everyone.
                 </p>
             </div>
 
             <!-- Rides feature -->
-            <div>
-                <img src="assets/images/green-python1.webp"
+            <div class="feature-box">
+                <img src="assets/images/water-ride.webp"
                     alt="a picture of people taking a ride on the river rapids ride. ">
                 <h2 class="heading">Rides</h2>
                 <p>Experience a diverse array of thrilling rides designed to elevate your
                     spirit
-                    and energize your day. Every ride promises to deliver an adrenaline rush!<br><br>Need a break from
-                    the action?<br><br>Our unique rides that allow you to glide through the breathtaking landscape with
+                    and energize your day. Every ride promises to deliver an adrenaline rush!<br><br>Our unique rides that allow you to glide through the breathtaking landscape with
                     ease, traversing high above the trails or zoom down scenic routes that offer stunning views without
                     the
                     hike.
@@ -148,7 +143,7 @@
             </div>
 
             <!-- Camping feature -->
-            <div>
+            <div class="feature-box">
                 <img src="assets/images/campfire.webp"
                     alt="A picture of people gathering around a campfire on site at Palms and Peaks.">
                 <h2 class="heading">Camping</h2>
@@ -161,7 +156,7 @@
             </div>
 
             <!-- Beach Bar feature -->
-            <div>
+            <div class="feature-box">
                 <img src="assets/images/Beach-bar1.webp"
                     alt="A picture of a beach bar in the evening with people having fun with cocktails visible in the foreground.">
                 <h2 class="heading">Beach bar</h2>
@@ -178,7 +173,7 @@
             <div class="map-container">
                 <iframe id="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.7368901381496!2d-157.8790603259741!3d21.557140969423525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c004329d3b793cd%3A0x35c85d78f569a256!2sKamehameha%20Hwy%2C%20Hawaii%2C%20USA!5e0!3m2!1sen!2suk!4v1731929245095!5m2!1sen!2suk"
-                    target="_blank" width="100%" height="400px" style="border:0;" allowfullscreen="false" loading="lazy"
+                    target="_blank" width="100%" height="300px" style="border:0;" allowfullscreen="false" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
