@@ -176,6 +176,7 @@ nav .fa-solid {
 
 .feature-box {
     background-image: url("../images/leaves-bg.webp");
+    flex-grow: 1;
 }
 
 /* Removes the empty line below the map */
@@ -297,7 +298,7 @@ footer {
         right: 0;
     }
 
-    nav #logo {
+    #logo {
         left: 10px;
     }
 
