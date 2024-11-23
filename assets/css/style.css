@@ -204,6 +204,8 @@ nav .fa-solid {
 
 .feature-box {
     background-image: url("../images/leaves-bg.webp");
+    flex-basis: 300px;
+    max-width: 600px;
     flex-grow: 1;
 }
 
@@ -241,6 +243,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .container-social {
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +252,7 @@ footer {
     color: var(--white-smoke);
     padding: 20px;
     align-items: center;
-    gap: 20px;
+    gap: 3rem;
 }
 
 .container-contact {
@@ -268,6 +271,7 @@ footer {
 
 .social-link {
     font-size: 2rem;
+    letter-spacing: 20px;
     color: var(--keppel);
     text-decoration: none;
 }
@@ -352,7 +356,7 @@ footer {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
 
     .home-features p {
         border-bottom: none;
@@ -385,13 +389,5 @@ footer {
         width: 55px;
         top: 7px;
         left: 20px;
-    }
-
-    .contact-box {
-        text-align: center;
-    }
-
-    .contact {
-        text-align: center;
     }
 }
