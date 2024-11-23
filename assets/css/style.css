@@ -204,16 +204,17 @@ nav .fa-solid {
 
 .feature-box {
     background-image: url("../images/leaves-bg.webp");
-    flex-basis: 300px;
-    max-width: 600px;
+    flex-basis: 200px;
+    max-width: 500px;
     flex-grow: 1;
 }
 
-/* Removes the empty line below the map */
+/* Flex removes the empty line below the map */
 .map-container {
     display: flex;
     width: 100%;
-    height: fit-content;
+    height: 400px;
+
 }
 
 /* Resort page */
