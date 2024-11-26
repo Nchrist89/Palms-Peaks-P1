@@ -113,8 +113,6 @@ nav .fa-solid {
     height: fit-content;
     max-height: 500px;
     width: 100%;
-    margin-bottom: 20px;
-
 }
 
 /* Main content styles */
@@ -166,28 +164,22 @@ nav .fa-solid {
     display: flex;
     height: 320px;
     width: 100%;
-}
-
-.welcome {
-    color: var(--mint-julep);
-    padding-top: 20px;
-    border-top: 5px solid var(--copper-canyon);
-    text-align: center;
+    border-top: 1px solid var(--neon-orange);
 }
 
 #welcome-note {
-    font-size: 1.3rem;
-    padding-top: 0 !important;
+    font-size: 1rem;
     color: var(--mint-julep);
-    margin-bottom: 10px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-weight: bold;
+    text-shadow: 3px 3px 3px black;
 }
 
 .welcome-box {
     background-image: url("../images/leaves-greenbg.png");
-    border-bottom: 5px solid var(--copper-canyon);
+    border-top: 3px solid var(--copper-canyon);
+    border-bottom: 3px solid var(--copper-canyon);
     text-align: center;
 }
 
@@ -203,7 +195,6 @@ nav .fa-solid {
     padding: 25px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 3px solid var(--neon-orange);
 }
 
 /* Flex removes the empty line below the map */
@@ -440,9 +431,6 @@ footer {
         text-align: center;
     }
 
-    /* Banner */
-
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -454,6 +442,7 @@ footer {
 
     .home-features img {
         border-radius: 10px 10px 0 0;
+        border-top: none;
     }
 
     .feature-box {
