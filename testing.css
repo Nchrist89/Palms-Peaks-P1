@@ -1,0 +1,160 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Klee+One&family=Shojumaru&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: "klee One", sans-serif;
+    font-size: 1.2rem;
+    background-color: var(--brown-derby);
+}
+
+h2 {
+    padding-top: 10px;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
+}
+
+:root {
+    /* CSS HEX color palette*/
+    --neon-orange: #ff5e00;
+    --mint-julep: #f4eec8;
+    --brown-derby: #402d13;
+    --paarl: #a6602a;
+    --keppel: #3aaeaa;
+    --rainforest-depths: #013220;
+    --copper-canyon: #803416;
+    --lemon-ginger: #afab2b;
+    --casal: #2d5961;
+    --eternity: #1c1f0c;
+    --white-smoke: #f5f5f5;
+}
+
+.stay-heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 3px;
+    background-image: url("assets/images/Woodaged1.png");
+    background-color: var(--brown-derby);
+    padding: 10px;
+    text-shadow: var(--eternity) 5px 5px 5px;
+    border-radius: 0 10px 0 0;
+}
+
+.stay-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #FFFDD0;
+    width: 100%;
+    text-align: center;
+}
+.stay-info p {
+    padding: 10px;
+    margin: auto;
+    line-height: 1.4em;
+}
+
+.stays {
+    justify-content: center;
+}
+
+.stay-features {
+    list-style-type: none;
+    background-color: var(--eternity);
+    color: var(--white-smoke);
+    border-radius: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.stay-option {
+    border: 2px solid var(--neon-orange);
+    border-radius: 10px;
+    background-image: url("assets/images/leaves-greenbg.png");
+    justify-content: center;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.stay-option img {
+    /* applying flex removes vacant line underneath image */
+    float: left;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px 0 0 10px;
+}
+
+.stay-info li {
+    margin: 0 8px 8px;
+    width: 200px;
+}
+
+
+.stay-info .fa-solid {
+    color: var(--keppel);
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+
+.stay-option img {
+    /* applying flex removes vacant line underneath image */
+    float: left;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px 0 0 10px;
+}
+
+/* Extra small devices (phones, 900px and down) */
+@media screen and (max-width: 600px) {
+    .stays {
+        margin: 10px;
+    }
+
+    .stay-option {
+        border-radius: 10px;
+        flex-direction: column;
+        margin: 10px;
+        height: 100%;
+        max-width: 400px;
+    }
+
+    .stay-option img {
+        /* applying flex removes vacant line underneath image */
+        display: flex;
+        height: 400px;
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .stay-heading {
+        border-radius: 0 0 0 0;
+    }
+
+    .stay-features {
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+    }
+
+    .stay-info li {
+        width: 100px;
+    }
+
+
+}
