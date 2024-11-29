@@ -254,16 +254,12 @@ nav .fa-solid {
 
 
 .stay-option {
-    border: 2px solid var(--neon-orange);
     border-radius: 10px;
     background-image: url("/assets/images/leaves-greenbg.png");
     justify-content: center;
     display: flex;
     flex-direction: column;
     margin: 10px;
-    height: 100%;
-
-
 }
 
 .stay-option img {
@@ -277,7 +273,7 @@ nav .fa-solid {
 
 .stay-info li {
     margin: 0 8px 8px;
-    width: 200px;
+    width: auto;
 }
 
 
@@ -418,12 +414,7 @@ footer {
         text-align: center;
     }
 
-    .stays {
-        margin: 10px;
-    }
-
     .stay-option {
-        border-radius: 10px;
         flex-direction: column;
         margin: 10px;
         height: 100%;
@@ -494,15 +485,23 @@ footer {
         border-radius: 10px;
         flex-direction: column;
         margin: 10px;
-        height: 100%;
         max-width: 450px;
     }
 
     .stay-option img {
-        height: 450px;
+        height: 350px;
         max-height: 450px;
         max-width: 530px;
         border-radius: 10px 10px 0 0;
+    }
+
+    .stay-heading {
+        border-radius: 0 0 0 0;
+    }
+
+    .stay-features {
+        border-radius: 0 0 0 0;
+
     }
 
 }
@@ -518,24 +517,52 @@ footer {
         border-radius: 10px;
         flex-direction: column;
         margin: 10px;
-        height: 100%;
+        height: fit-content;
         max-width: 350px;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    .stay-heading {
+        border-radius: 0 10px 0 0;
+    }
+
+    .stay-features {
+        border-radius: 0 0 10px 0px;
+    }
+
     .stay-option {
         flex-direction: row;
         max-width: 90%;
-        margin: 20px 20px;
     }
 
-    .stay-info {
-        margin: 0;
+
+    .stay-info p {
+        font-size: 18px;
+        justify-content: center;
+        margin: auto 30px;
+
+    }
+
+    .stay-option img {
+        height: fit-content;
+        width: 400px;
+        border-radius: 10px 0 0 10px;
     }
 
 }
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .stay-info {
+        font-size: 22px;
+    }
+
+    .stay-option {
+        margin-bottom: 30px;
+    }
+}
 
 
