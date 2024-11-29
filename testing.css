@@ -56,6 +56,7 @@ h2 {
     width: 100%;
     text-align: center;
 }
+
 .stay-info p {
     padding: 10px;
     margin: auto;
@@ -83,10 +84,10 @@ h2 {
     border: 2px solid var(--neon-orange);
     border-radius: 10px;
     background-image: url("assets/images/leaves-greenbg.png");
-    justify-content: center;
-    height: 350px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
     margin: 15px;
 }
 
@@ -118,43 +119,6 @@ h2 {
     border-radius: 10px 0 0 10px;
 }
 
-/* Extra small devices (phones, 900px and down) */
-@media screen and (max-width: 600px) {
-    .stays {
-        margin: 10px;
-    }
-
-    .stay-option {
-        border-radius: 10px;
-        flex-direction: column;
-        margin: 10px;
-        height: 100%;
-        max-width: 400px;
-    }
-
-    .stay-option img {
-        /* applying flex removes vacant line underneath image */
-        display: flex;
-        height: 400px;
-        width: 100%;
-        max-width: 400px;
-        border-radius: 10px 10px 0 0;
-    }
-
-    .stay-heading {
-        border-radius: 0 0 0 0;
-    }
-
-    .stay-features {
-        flex-wrap: wrap;
-        flex-direction: row;
-        border-radius: 0 0 10px 10px;
-        padding: 10px;
-    }
-
-    .stay-info li {
-        width: 100px;
-    }
 
 
 }

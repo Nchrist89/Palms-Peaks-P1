@@ -138,6 +138,7 @@ nav .fa-solid {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 5px;
+    justify-content: space-evenly;
 }
 
 .home-features img {
@@ -167,6 +168,7 @@ nav .fa-solid {
     background-image: url("../images/leaves-greenbg.png");
     max-width: 500px;
     flex-grow: 1;
+    justify-content: space-evenly;
 }
 
 .feature-box p {
@@ -183,8 +185,6 @@ nav .fa-solid {
     height: 400px;
 
 }
-
-
 
 /* Resort page */
 
@@ -208,6 +208,84 @@ nav .fa-solid {
 }
 
 /* Stays page */
+
+.stay-heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 3px;
+    background-image: url("/assets/images/Woodaged2.png");
+    background-color: var(--brown-derby);
+    padding: 10px;
+    text-shadow: var(--eternity) 5px 5px 5px;
+    border-radius: 0 10px 0 0;
+}
+
+.stay-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #FFFDD0;
+    width: 100%;
+    text-align: center;
+}
+.stay-info p {
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+.stays {
+    justify-content: center;
+}
+
+.stay-features {
+    list-style-type: none;
+    background-color: var(--eternity);
+    color: var(--white-smoke);
+    border-radius: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+
+.stay-option {
+    border: 2px solid var(--neon-orange);
+    border-radius: 10px;
+    background-image: url("/assets/images/leaves-greenbg.png");
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 100%;
+
+
+}
+
+.stay-option img {
+    /* applying flex removes vacant line underneath image */
+    float: left;
+    width: 100%;
+    height: fit-content;
+    max-width: 450apx;
+    border-radius: 10px 0 0 10px;
+}
+
+.stay-info li {
+    margin: 0 8px 8px;
+    width: 200px;
+}
+
+
+.stay-info .fa-solid {
+    color: var(--keppel);
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
 
 /* Footer content styles */
 
@@ -268,79 +346,7 @@ footer {
     margin: 10px;
 }
 
-.stay-heading {
-    text-align: center;
-    font-size: 1.7rem;
-    font-family: "Shojumaru";
-    color: var(--neon-orange);
-    letter-spacing: 3px;
-    background-image: url("/assets/images/Woodaged2.png");
-    background-color: var(--brown-derby);
-    padding: 10px;
-    text-shadow: var(--eternity) 5px 5px 5px;
-    border-radius: 0 10px 0 0;
-}
 
-.stay-info {
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    color: #FFFDD0;
-    width: 100%;
-    text-align: center;
-}
-.stay-info p {
-    padding: 10px;
-    margin: auto;
-    line-height: 1.4em;
-}
-
-.stays {
-    justify-content: center;
-}
-
-.stay-features {
-    list-style-type: none;
-    background-color: var(--eternity);
-    color: var(--white-smoke);
-    border-radius: 0 0 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-size: 16px;
-    padding: 5px;
-}
-
-
-.stay-option {
-    border: 2px solid var(--neon-orange);
-    border-radius: 10px;
-    background-image: url("/assets/images/leaves-greenbg.png");
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    margin: 15px;
-}
-
-.stay-option img {
-    /* applying flex removes vacant line underneath image */
-    float: left;
-    width: 100%;
-    max-width: 350px;
-    border-radius: 10px 0 0 10px;
-}
-
-.stay-info li {
-    margin: 0 8px 8px;
-    width: 200px;
-}
-
-
-.stay-info .fa-solid {
-    color: var(--keppel);
-    padding-right: 10px;
-    font-size: 1.2rem;
-}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -421,7 +427,7 @@ footer {
         flex-direction: column;
         margin: 10px;
         height: 100%;
-        max-width: 400px;
+
     }
 
     .stay-option img {
@@ -429,7 +435,6 @@ footer {
         display: flex;
         height: 400px;
         width: 100%;
-        max-width: 400px;
         border-radius: 10px 10px 0 0;
     }
 
@@ -443,7 +448,6 @@ footer {
         border-radius: 0 0 10px 10px;
         padding: 10px;
     }
-
     .stay-info li {
         width: 100px;
     }
@@ -485,6 +489,53 @@ footer {
         top: 7px;
         left: 20px;
     }
+
+    .stay-option {
+        border-radius: 10px;
+        flex-direction: column;
+        margin: 10px;
+        height: 100%;
+        max-width: 450px;
+    }
+
+    .stay-option img {
+        height: 450px;
+        max-height: 450px;
+        max-width: 530px;
+        border-radius: 10px 10px 0 0;
+    }
+
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .stays {
+        justify-content: space-evenly;
+    }
+
+    .stay-option {
+        border-radius: 10px;
+        flex-direction: column;
+        margin: 10px;
+        height: 100%;
+        max-width: 350px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .stay-option {
+        flex-direction: row;
+        max-width: 90%;
+        margin: 20px 20px;
+    }
+
+    .stay-info {
+        margin: 0;
+    }
+
+}
+
 
 
