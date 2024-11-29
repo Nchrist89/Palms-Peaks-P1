@@ -209,6 +209,15 @@ nav .fa-solid {
 
 /* Stays page */
 
+
+.stays-opening p {
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFDD0;
+    letter-spacing: 1px;
+}
+
 .stay-heading {
     text-align: center;
     font-size: 1.7rem;
