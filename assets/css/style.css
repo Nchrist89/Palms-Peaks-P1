@@ -20,6 +20,10 @@ h2 {
     border-bottom: 5px solid var(--copper-canyon);
 }
 
+.hidden {
+    display: none;
+}
+
 :root {
     /* CSS HEX color palette*/
     --neon-orange: #ff5e00;
@@ -148,22 +152,6 @@ nav .fa-solid {
     border-top: 1px solid var(--neon-orange);
 }
 
-#welcome-note {
-    font-size: 1rem;
-    color: var(--mint-julep);
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    text-shadow: 3px 3px 3px black;
-}
-
-.welcome-box {
-    background-image: url("../images/leaves-greenbg.png");
-    border-top: 3px solid var(--copper-canyon);
-    border-bottom: 3px solid var(--copper-canyon);
-    text-align: center;
-}
-
 .feature-box {
     background-image: url("../images/leaves-greenbg.png");
     max-width: 500px;
@@ -189,11 +177,11 @@ nav .fa-solid {
 /* Resort page */
 
 .resort-features p {
-    color: var(--rainforest-depths);
+    color: #f5f5f5;
     padding: 25px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 3px solid var(--neon-orange);
+    border-bottom: 3px solid var(--copper-canyon);
 }
 
 .resort-features img {
@@ -204,10 +192,10 @@ nav .fa-solid {
 }
 
 .resort-features {
-    background-image: url("../images/leaves-bg.webp");
+    background-image: url("../images/leaves-greenbg.png");
 }
 
-/* Stays page */
+/* Stays page styles */
 
 
 .stays-opening p {
@@ -256,7 +244,7 @@ nav .fa-solid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px;
 
 }
