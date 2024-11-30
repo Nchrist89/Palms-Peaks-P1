@@ -14,12 +14,6 @@ body {
     background-color: var(--brown-derby);
 }
 
-h2 {
-    padding-top: 10px;
-    border-top: 5px solid var(--copper-canyon);
-    border-bottom: 5px solid var(--copper-canyon);
-}
-
 .hidden {
     display: none;
 }
@@ -49,6 +43,10 @@ nav {
     justify-content: flex-end;
     align-items: center;
     border-bottom: 10px solid var(--copper-canyon);
+}
+
+.resort-nav {
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -131,6 +129,9 @@ nav .fa-solid {
     background-color: var(--brown-derby);
     padding-bottom: 1rem;
     text-shadow: var(--eternity) 5px 5px 5px;
+    padding-top: 10px;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
 }
 
 .home-features {
@@ -174,43 +175,43 @@ p {
 
 }
 
-/* Resort page */
+.resort-heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 3px;
+    background-image: url("/assets/images/Woodaged2.png");
+    background-color: var(--brown-derby);
+    padding: 10px;
+    text-shadow: var(--eternity) 5px 5px 5px;
+
+}
 
 .resort-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
+    justify-content: center;
 }
 
 .resort-box {
-    background-image: url("../images/leaves-greenbg.png");
-    max-width: 350px;
-    flex-grow: 1;
-    justify-content: space-evenly;
-}
-
-.resort-features > img {
     display: flex;
-    height: fit-content;
-    width: 100%;
-    padding: 0;
+    max-width: 350px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.resort-features {
-    background-image: url("../images/leaves-greenbg.png");
+.resort-info-box {
+    background-image: url("/assets/images/leaves-greenbg.png");
+}
+
+.resort-info-box img {
+    width: 350px;
+    height: fit-content;
 }
 
 /* Stays page styles */
-
-
-.stays-opening p {
-    padding: 25px;
-    font-weight: bold;
-    text-align: center;
-    color: #FFFDD0;
-    letter-spacing: 1px;
-}
 
 .stay-heading {
     text-align: center;
@@ -233,6 +234,7 @@ p {
     width: 100%;
     text-align: center;
 }
+
 .stay-info p {
     padding: 10px;
     line-height: 1.4em;
@@ -356,6 +358,7 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
+
     /* Navigation / sidebar styles */
     .links-container {
         flex-direction: column;
@@ -389,7 +392,7 @@ footer {
         display: block;
     }
 
-    #sidebar-active:checked ~ .links-container {
+    #sidebar-active:checked~.links-container {
         right: 0;
     }
 
@@ -397,7 +400,7 @@ footer {
         left: 10px;
     }
 
-    #sidebar-active:checked ~ #overlay {
+    #sidebar-active:checked~#overlay {
         height: 100%;
         width: 100%;
         position: fixed;
@@ -458,13 +461,28 @@ footer {
     .stay-info p {
         padding: 20px;
     }
+
+    /* resorts */
+
+    .resort-box {
+        display: flex;
+        max-width: 350px;
+        flex-direction: column;
+        margin: 20px 10px;
+
+    }
+
+    .resort-info-box > img {
+        width: 100%;
+        height: fit-content;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-     /* Banner media queries */
-     .banner {
+    /* Banner media queries */
+    .banner {
         border-bottom: 10px solid var(--copper-canyon);
     }
 
@@ -524,6 +542,12 @@ footer {
         padding: 30px;
     }
 
+    .resort-box {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 350px;
+        flex-direction: column;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -539,6 +563,14 @@ footer {
         margin: 10px;
         height: fit-content;
         max-width: 350px;
+    }
+
+    .resort-box {
+        margin-bottom: auto;
+    }
+
+    .resort-container {
+        justify-content: space-evenly;
     }
 }
 
@@ -588,6 +620,15 @@ footer {
     .stay-info p {
         font-size: 20px;
     }
+
+    .resort-container {
+        flex-direction: row;
+    }
+
+    .resort-box {
+        display: flex;
+        max-width: 350px;
+    }
+
+
 }
-
-
