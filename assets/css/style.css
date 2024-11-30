@@ -183,13 +183,11 @@ p {
     margin-top: 10px;
 }
 
-.resort-intro {
-    color: #f5f5f5;
-    padding: 25px;
-    font-weight: bold;
-    text-align: center;
-    border-bottom: 3px solid var(--copper-canyon);
+.resort-box {
     background-image: url("../images/leaves-greenbg.png");
+    max-width: 350px;
+    flex-grow: 1;
+    justify-content: space-evenly;
 }
 
 .resort-features > img {
@@ -200,7 +198,6 @@ p {
 }
 
 .resort-features {
-    max-width: 500px;
     background-image: url("../images/leaves-greenbg.png");
 }
 
@@ -257,7 +254,6 @@ p {
     padding: 5px;
 
 }
-
 
 .stay-option {
     border-radius: 10px;
