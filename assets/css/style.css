@@ -193,6 +193,7 @@ p {
 }
 
 .resort-features {
+    max-width: 500px;
     background-image: url("../images/leaves-greenbg.png");
 }
 
