@@ -12,6 +12,7 @@ body {
     font-family: "klee One", sans-serif;
     font-size: 1.2rem;
     background-color: var(--brown-derby);
+    box-sizing: border-box;
 }
 
 .hidden {
@@ -43,10 +44,6 @@ nav {
     justify-content: flex-end;
     align-items: center;
     border-bottom: 10px solid var(--copper-canyon);
-}
-
-.resort-nav {
-    margin-bottom: 20px;
 }
 
 #logo {
@@ -172,43 +169,6 @@ p {
     display: flex;
     width: 100%;
     height: 400px;
-
-}
-
-.resort-heading {
-    text-align: center;
-    font-size: 1.7rem;
-    font-family: "Shojumaru";
-    color: var(--neon-orange);
-    letter-spacing: 3px;
-    background-image: url("/assets/images/Woodaged2.png");
-    background-color: var(--brown-derby);
-    padding: 10px;
-    text-shadow: var(--eternity) 5px 5px 5px;
-
-}
-
-.resort-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.resort-box {
-    display: flex;
-    max-width: 350px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.resort-info-box {
-    background-image: url("/assets/images/leaves-greenbg.png");
-}
-
-.resort-info-box img {
-    width: 350px;
-    height: fit-content;
 }
 
 /* Stays page styles */
@@ -219,7 +179,7 @@ p {
     font-family: "Shojumaru";
     color: var(--neon-orange);
     letter-spacing: 3px;
-    background-image: url("/assets/images/Woodaged2.png");
+    background-image: url("../images/Woodaged2.png");
     background-color: var(--brown-derby);
     padding: 10px;
     text-shadow: var(--eternity) 5px 5px 5px;
@@ -259,7 +219,7 @@ p {
 
 .stay-option {
     border-radius: 10px;
-    background-image: url("/assets/images/leaves-greenbg.png");
+    background-image: url("../images/leaves-greenbg.png");
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -271,7 +231,7 @@ p {
     float: left;
     width: 100%;
     height: fit-content;
-    max-width: 450apx;
+    max-width: 450px;
     border-radius: 10px 0 0 10px;
 }
 
@@ -287,7 +247,51 @@ p {
     font-size: 1.2rem;
 }
 
+/* Resort section */
+
+.resort-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.left-text-box,
+.right-text-box {
+    width: 40%;
+    border: 2px solid black;
+    width: 400px;
+    background-image: url("/assets/images/leaves-greenbg.png");
+    color: white;
+}
+
+.resort-image-box {
+    display: flex;
+    flex-shrink: 2;
+    width: 40%;
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.resort-image-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--copper-canyon);
+    object-fit: cover;
+}
+
 /* Footer content styles */
+
+section {
+    margin-bottom: auto;
+}
 
 footer {
     margin-top: 10px;
@@ -311,7 +315,6 @@ footer {
     justify-content: space-evenly;
     background-color: var(--eternity);
     flex-grow: 1;
-
 }
 
 .contact-box {
@@ -352,9 +355,6 @@ footer {
     line-height: 1.3rem;
     margin-bottom: 5px;
 }
-
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
@@ -461,22 +461,9 @@ footer {
     .stay-info p {
         padding: 20px;
     }
-
-    /* resorts */
-
-    .resort-box {
-        display: flex;
-        max-width: 350px;
-        flex-direction: column;
-        margin: 20px 10px;
-
-    }
-
-    .resort-info-box > img {
-        width: 100%;
-        height: fit-content;
-    }
 }
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -542,12 +529,6 @@ footer {
         padding: 30px;
     }
 
-    .resort-box {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 350px;
-        flex-direction: column;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -565,13 +546,6 @@ footer {
         max-width: 350px;
     }
 
-    .resort-box {
-        margin-bottom: auto;
-    }
-
-    .resort-container {
-        justify-content: space-evenly;
-    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -605,7 +579,60 @@ footer {
         border-radius: 10px 0 0 10px;
     }
 
+    /* Resort page media queries */
+
+    .resort-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        margin-bottom: auto;
+    }
+
+    .left-text-box,
+    .right-text-box {
+        border-radius: 5%;
+    }
+
+    .left-text-box {
+        align-self: flex-start;
+        margin-top: 15px;
+    }
+
+    .right-text-box {
+        align-self: flex-end;
+        margin-top: 15px;
+    }
+
+    .right-text-box > p {
+        text-align: right;
+    }
+
+    .resort-features-left,
+    .resort-features-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 40%;
+        border: 2px solid black;
+    }
+
+    .resort-image-box {
+        display: flex;
+        position: absolute;
+        width: 40%;
+        border: 2px solid black;
+        height: 250px;
+        width: 250px;
+        top: 36%;
+        left: 38%;
+    }
+
 }
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -621,14 +648,6 @@ footer {
         font-size: 20px;
     }
 
-    .resort-container {
-        flex-direction: row;
-    }
-
-    .resort-box {
-        display: flex;
-        max-width: 350px;
-    }
 
 
 }
