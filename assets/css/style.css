@@ -256,26 +256,39 @@ p {
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    width: 100%;
+}
+
+.resort-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 2px;
+    background-image: url("../images/wood-aged.webp");
+    background-color: var(--brown-derby);
+    padding-bottom: 1rem;
+    text-shadow: var(--eternity) 5px 5px 5px;
+    padding-top: 10px;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
 }
 
 .left-text-box,
 .right-text-box {
     width: 40%;
-    border: 2px solid black;
     width: 400px;
     background-image: url("/assets/images/leaves-greenbg.png");
     color: white;
+    width: 100%;
 }
 
 .resort-image-box {
     display: flex;
-    flex-shrink: 2;
-    width: 40%;
-    border: 2px solid black;
-    height: 250px;
-    width: 250px;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 360px;
+    height: fit-content;
+    margin: 20px;
 
 }
 
@@ -593,6 +606,17 @@ footer {
     .left-text-box,
     .right-text-box {
         border-radius: 5%;
+        margin: 10px;
+    }
+
+    .resort-heading {
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    .left-text-box p,
+    .right-text-box p {
+        padding: 15px;
     }
 
     .left-text-box {
@@ -616,18 +640,16 @@ footer {
         align-items: center;
         justify-content: space-around;
         width: 40%;
-        border: 2px solid black;
     }
 
     .resort-image-box {
         display: flex;
         position: absolute;
         width: 40%;
-        border: 2px solid black;
         height: 250px;
         width: 250px;
-        top: 36%;
-        left: 38%;
+        top: 32%;
+        left: 37%;
     }
 
 }
@@ -648,6 +670,11 @@ footer {
         font-size: 20px;
     }
 
-
+    .resort-image-box {
+        height: fit-content;
+        width:300px;
+        top: 25%;
+        left: 37%;
+    }
 
 }
