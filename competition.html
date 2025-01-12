@@ -38,12 +38,76 @@
             </label>
             <a class="nav-link" href="test.html">T</a>
             <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="resort.html">Resort</a>
-            <a class="nav-link" href="#">Rides</a>
-            <a class="nav-link" href="stays.html">Stays</a>
+            <a class="nav-link" href="#">?</a>
+            <a class="nav-link" href="competition.html">Win!</a>
         </div>
     </nav>
 </header>
+
+<!-- Main content -->
+<main>
+    <!-- Competition section -->
+    <section class="competition">
+        <h2>Win a free holiday!</h2>
+        <p>Enter our competition to win a free holiday to our resort! Just fill in the form below and you could be the
+            lucky winner!</p>
+
+        <!-- Form -->
+         <form action="#" method="POST" id="competition">
+            <h3>Enter your details</h3>
+
+            <div>
+                <label for="Mr.">Mr</label>
+                <input type="radio" id="Mr." name="title" value="Mr." required>
+
+                <label for="Mrs.">Mrs</label>
+                <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+                <label for="Miss.">Mrs</label>
+                <input type="radio" id="Miss." name="title" value="Miss.">
+
+                <label for="Ms.">Ms</label>
+                <input type="radio" id="Ms." name="title" value="Ms.">
+
+                <label for="Dr.">Dr</label>
+                <input type="radio" id="Dr." name="title" value="Dr.">
+
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" name="title" value="Other">
+            </div>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+            <label for="people">number of people</label>
+            <select name="people" id="people" form="competition">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+
+            <p>Please enter your preferred date of visit</p>
+            <label for="visit">Date</label>
+            <input type="date" id="visit" name="vdate">
+            <p>Terms and conditions apply</p>
+
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox" id="terms" name="terms" required>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+         </form>
 
 <!-- Footer content -->
 <footer>
