@@ -139,7 +139,7 @@ nav .fa-solid {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 5px;
+    margin-top: 15px;
     justify-content: space-evenly;
 }
 
@@ -166,11 +166,12 @@ p {
 
 .ride-option {
     border-radius: 10px;
-    background-image: url("/assets/images/leaves-bg-red.png");
+    background-image: url("/assets/images/leaves-bg-red1.png");
     justify-content: center;
     display: flex;
     flex-direction: column;
     margin: 10px;
+    max-width: 450px;
 }
 
 .ride-info {
@@ -231,13 +232,12 @@ p {
 
 }
 
-.ridee-option img {
+.ride-option img {
     /* applying flex removes vacant line underneath image */
     float: left;
+    height: 300px;
     width: 100%;
-    height: fit-content;
-    max-width: 450px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .ride-info li {
@@ -444,13 +444,6 @@ footer {
         text-align: center;
     }
 
-    .ride-option {
-        flex-direction: column;
-        margin: 10px;
-        height: 100%;
-
-    }
-
     .ride-option img {
         /* applying flex removes vacant line underneath image */
         display: flex;
@@ -556,14 +549,6 @@ footer {
         justify-content: space-evenly;
     }
 
-    .ride-option {
-        border-radius: 10px;
-        flex-direction: column;
-        margin: 10px;
-        height: fit-content;
-        max-width: 350px;
-    }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -593,6 +578,7 @@ footer {
 
     .ride-option img {
         height: fit-content;
+        height: 300px;
         width: 400px;
         border-radius: 10px 0 0 10px;
     }
@@ -629,6 +615,10 @@ footer {
         margin-top: 15px;
     }
 
+    .left-text-box > p {
+        text-align: left;
+    }
+
     .right-text-box {
         align-self: flex-end;
         margin-top: 15px;
@@ -637,6 +627,15 @@ footer {
     .right-text-box > p {
         text-align: right;
     }
+
+    .resort-features-left p {
+        margin-right: 15px;
+    }
+
+    .resort-features-right p {
+        margin-left: 15px;
+    }
+
 
     .resort-features-left,
     .resort-features-right {
@@ -686,7 +685,7 @@ footer {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* XX-large devices 1400px and up) */
 @media only screen and (min-width: 1400px) {
     .resort-image-box {
         height: fit-content;
