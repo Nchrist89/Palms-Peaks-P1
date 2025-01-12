@@ -164,6 +164,24 @@ p {
     text-align: center;
 }
 
+.ride-option {
+    border-radius: 10px;
+    background-image: url("/assets/images/leaves-bg-red.png");
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.ride-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #FFFDD0;
+    width: 100%;
+    text-align: center;
+}
+
 /* Flex removes the empty line below the map */
 .map-container {
     display: flex;
@@ -200,11 +218,7 @@ p {
     line-height: 1.4em;
 }
 
-.stays {
-    justify-content: center;
-}
-
-.stay-features {
+.ride-features {
     list-style-type: none;
     background-color: var(--eternity);
     color: var(--white-smoke);
@@ -217,16 +231,7 @@ p {
 
 }
 
-.stay-option {
-    border-radius: 10px;
-    background-image: url("../images/leaves-greenbg.png");
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-
-.stay-option img {
+.ridee-option img {
     /* applying flex removes vacant line underneath image */
     float: left;
     width: 100%;
@@ -235,13 +240,13 @@ p {
     border-radius: 10px 0 0 10px;
 }
 
-.stay-info li {
+.ride-info li {
     margin: 0 8px 8px;
     width: auto;
 }
 
 
-.stay-info .fa-solid {
+.ride-info .fa-solid {
     color: var(--keppel);
     padding-right: 10px;
     font-size: 1.2rem;
@@ -439,14 +444,14 @@ footer {
         text-align: center;
     }
 
-    .stay-option {
+    .ride-option {
         flex-direction: column;
         margin: 10px;
         height: 100%;
 
     }
 
-    .stay-option img {
+    .ride-option img {
         /* applying flex removes vacant line underneath image */
         display: flex;
         height: 300px;
@@ -454,11 +459,11 @@ footer {
         border-radius: 10px 10px 0 0;
     }
 
-    .stay-heading {
+    .ride-heading {
         border-radius: 0 0 0 0;
     }
 
-    .stay-features {
+    .ride-features {
         flex-wrap: wrap;
         flex-direction: row;
         border-radius: 0 0 10px 10px;
@@ -466,12 +471,12 @@ footer {
         justify-content: space-evenly;
     }
 
-    .stay-info li {
+    .ride-info li {
         width: 150px;
         padding: 5px;
     }
 
-    .stay-info p {
+    .ride-info p {
         padding: 20px;
     }
 }
@@ -551,7 +556,7 @@ footer {
         justify-content: space-evenly;
     }
 
-    .stay-option {
+    .ride-option {
         border-radius: 10px;
         flex-direction: column;
         margin: 10px;
@@ -564,21 +569,21 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    .stay-heading {
+    .ride-heading {
         border-radius: 0 10px 0 0;
     }
 
-    .stay-features {
+    .ride-features {
         border-radius: 0 0 10px 0px;
     }
 
-    .stay-option {
+    .ride-option {
         flex-direction: row;
         max-width: 90%;
     }
 
 
-    .stay-info p {
+    .ride-info p {
         font-size: 16px;
         justify-content: center;
         padding: 15px;
@@ -586,7 +591,7 @@ footer {
 
     }
 
-    .stay-option img {
+    .ride-option img {
         height: fit-content;
         width: 400px;
         border-radius: 10px 0 0 10px;
@@ -650,6 +655,7 @@ footer {
         width: 250px;
         top: 32%;
         left: 37%;
+        margin: 5px;
     }
 
 }
@@ -658,15 +664,15 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .stay-info {
+    .ride-info {
         font-size: 22px;
     }
 
-    .stay-option {
+    .ride-option {
         margin-bottom: 30px;
     }
 
-    .stay-info p {
+    .ride-info p {
         font-size: 20px;
     }
 
@@ -675,6 +681,17 @@ footer {
         width:300px;
         top: 25%;
         left: 37%;
+        border: 5px solid black;
     }
 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .resort-image-box {
+        height: fit-content;
+        width: 350px;
+        top: 14%;
+        left: 37%;
+    }
 }
