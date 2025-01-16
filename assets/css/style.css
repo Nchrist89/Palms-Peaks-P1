@@ -72,11 +72,12 @@ nav {
 .nav-link {
     height: 75%;
     padding: 0 25px;
+    margin-right: 25px;
     display: flex;
     align-items: center;
     text-decoration: none;
     font-family: "Shojumaru";
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--neon-orange);
@@ -126,9 +127,13 @@ nav .fa-solid {
     background-color: var(--brown-derby);
     padding-bottom: 1rem;
     text-shadow: var(--eternity) 5px 5px 5px;
-    padding-top: 10px;
+    padding-top: 1rem;
     border-top: 5px solid var(--copper-canyon);
     border-bottom: 5px solid var(--copper-canyon);
+}
+
+#winform > h2 {
+    padding: 15px;
 }
 
 .home-features {
@@ -160,7 +165,7 @@ nav .fa-solid {
 p {
     color: #FFFDD0;
     text-shadow: 3px 3px 3px black;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -190,35 +195,129 @@ p {
     height: 400px;
 }
 
-/* Stays page styles */
-
-.stay-heading {
-    text-align: center;
-    font-size: 1.7rem;
-    font-family: "Shojumaru";
-    color: var(--neon-orange);
-    letter-spacing: 3px;
-    background-image: url("../images/Woodaged2.png");
-    background-color: var(--brown-derby);
-    padding: 10px;
-    text-shadow: var(--eternity) 5px 5px 5px;
-    border-radius: 0 10px 0 0;
-}
-
-.stay-info {
+/* competition page */
+#competition {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
-    color: #FFFDD0;
-    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url("../images/leaves-greenbg.png");
+}
+
+#comp-intro {
+    margin: 20px;
+}
+
+#winform {
+    display: block;
+    font-size: 22px;
+    color:#f4eec8;
     text-align: center;
 }
 
-.stay-info p {
-    padding: 10px;
-    line-height: 1.4em;
+#winform > h2 {
+    border-top: none;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
 }
 
+#form-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#form-details label {
+    display: inline-block;
+    padding: 15px 0 10px;
+    text-align: left;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#form-details input {
+    padding: 10px;
+    margin: 10px;
+}
+
+#form-details select {
+    padding: 10px;
+    margin: 10px;
+}
+
+#form-details > div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid var(--copper-canyon);
+    background-color: var(--eternity);
+    border-radius: 15px;
+    flex-basis: 470px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#winform select {
+    width: 50px;
+}
+
+#form-details-box {
+    margin: 20px;
+    text-align: center;
+}
+
+#titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid var(--copper-canyon);
+    background-color: var(--eternity);
+    border-radius: 15px;
+    margin: 15px;
+    width: 100%;
+
+}
+
+#titles > input {
+    margin: 0 15px;
+}
+
+#form-box {
+    display: flex;
+    background-color: var(--brown-derby);
+    border: 5px solid var(--copper-canyon);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#form-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 15px;
+}
+
+#form-buttons > button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--eternity);
+    color: var(--neon-orange);
+    font-size: 18px;
+    font-family: "Shojumaru";
+    letter-spacing: 2px;
+}
+
+.terms-container {
+    margin: 20px;
+    padding: 20px;
+    max-height: 300px; /* Set a maximum height */
+    overflow-y: auto; /* Add vertical scroll */
+    border: 1px solid var(--copper-canyon);
+    border-radius: 4px;
+    background-color: var(--eternity);
+}
+
+/* Featured section */
 .ride-features {
     list-style-type: none;
     background-color: var(--eternity);
@@ -257,9 +356,7 @@ p {
 .resort-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     position: relative;
-    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -377,6 +474,10 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
 
+    p {
+        font-size: 1rem;
+    }
+
     /* Navigation / sidebar styles */
     .links-container {
         flex-direction: column;
@@ -444,6 +545,7 @@ footer {
         text-align: center;
     }
 
+    /* featured ride section */
     .ride-option img {
         /* applying flex removes vacant line underneath image */
         display: flex;
@@ -472,8 +574,21 @@ footer {
     .ride-info p {
         padding: 20px;
     }
-}
 
+    /* Competition section */
+    #winform {
+        font-size: 18px;
+    }
+
+    #terms-conditions {
+        font-size: 14px;
+    }
+
+    #titles {
+        max-width: 600px;
+    }
+
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -511,33 +626,6 @@ footer {
         width: 55px;
         top: 7px;
         left: 20px;
-    }
-
-    .stay-option {
-        border-radius: 10px;
-        flex-direction: column;
-        margin: 10px;
-        max-width: 450px;
-    }
-
-    .stay-option img {
-        height: 350px;
-        max-height: 450px;
-        max-width: 530px;
-        border-radius: 10px 10px 0 0;
-    }
-
-    .stay-heading {
-        border-radius: 0 0 0 0;
-    }
-
-    .stay-features {
-        border-radius: 0 0 0 0;
-
-    }
-
-    .stay-info p {
-        padding: 30px;
     }
 
 }
@@ -583,7 +671,7 @@ footer {
         border-radius: 10px 0 0 10px;
     }
 
-    /* Resort page media queries */
+    /* Resort feature media queries */
 
     .resort-container {
         display: flex;
@@ -629,11 +717,11 @@ footer {
     }
 
     .resort-features-left p {
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
     .resort-features-right p {
-        margin-left: 15px;
+        margin-left: 25px;
     }
 
 
@@ -656,6 +744,16 @@ footer {
         left: 37%;
         margin: 5px;
     }
+
+    #form-box {
+        margin: 0 50px 25px;
+    }
+
+    #winform > h2 {
+        font-size: 25px;
+    }
+
+
 
 }
 
@@ -680,7 +778,6 @@ footer {
         width:300px;
         top: 25%;
         left: 37%;
-        border: 5px solid black;
     }
 
 }
@@ -692,5 +789,14 @@ footer {
         width: 350px;
         top: 14%;
         left: 37%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .resort-image-box {
+        height: fit-content;
+        width: 350px;
+        top: 14%;
+        left: 39%;
     }
 }
