@@ -55,7 +55,7 @@
 
         <!-- Form -->
         <div id="form-box">
-            <form action="success.html" method="POST" id="winform">
+            <form action="success.html" method="get" id="winform">
 
                 <h2 class="heading">Win a free family holiday!</h2>
                 <br>
@@ -100,7 +100,7 @@
                         </div>
                         <div>
                             <label for="people">Number of people (<em>Max 5 people</em>)</label>
-                            <select name="people" id="people" form="competition">
+                            <select name="people" id="people" form="winform" required>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -154,8 +154,8 @@
                 </div>
                 <br><br>
                 <div id="form-buttons">
-                    <button type="reset" form="form1" value="Reset">Reset</button>
-                    <button type="submit" form="form1" value="Submit">Submit</button>
+                    <button type="reset" form="winform" value="Reset">Reset</button>
+                    <button type="submit" form="winform" value="Submit">Submit</button>
                 </div>
             </form>
         </div>
