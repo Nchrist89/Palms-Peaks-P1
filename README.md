@@ -1,131 +1,334 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Palms and Peaks Resort website
 
-Welcome USER_NAME,
+Palms and Peaks resort is a website which is responsive website which allows visitors to view on a range of devices from Mobile to Large computer monitors.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**AM I RESPONSIVE SCREENSHOT**
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+**LINK TO WEBSITE ON GITHUB**
 
-## Gitpod Reminders
+## CONTENTS
+-LINKS TO SECTIONS IN README
+___
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**UX information**
 
-`python3 -m http.server`
+## Design
 
-A blue button should appear to click: _Make Public_,
+### Colour Scheme
 
-Another blue button should appear to click: _Open Browser_.
+![Palms and Peaks Website Colour Palette](docs/readme-docs/readme-images/colorpalette.png)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+This is the colour palette I have used in the website. They were taken from the original image I was going to use as the main banner for the homepage. The colour palette was created using the [Image Colour Picker](https://imagecolorpicker.com/) website. The website provided different names for the colours so they are Tropical Themed in my website variable names but the Hexcodes remain the same.
 
-A blue button should appear to click: _Make Public_,
+### Typography
 
-Another blue button should appear to click: _Open Browser_.
+Google Fonts was used for the following fonts:
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Shojumaru is used for all major headings on the website and the navigation bar links. It is a chop suey style font.
 
-To log into the Heroku toolbelt CLI:
+* Klee One has been used as the body text for the website. It is a script font.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Imagery
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+All images throughout the website have been generated using [Prome AI](https://www.promeai.pro/ai-image-generation) website.
 
-### Connecting your Mongo database
+Images for styling purposes such as the navigation bar wooden pattern and heading backgrounds was taken from google images.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Wireframes
 
-------
+Wireframes was used prior to building the website but due to medical issues the project was cut down and therefore the wireframe for this doesn't quite match up but it gives an idea of what I originally wanted planned for the website.
 
-## Release History
+[Desktop Wireframes](docs\readme-docs\readme-images\wireframes-desktop.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[Tablet Wireframes](docs\readme-docs\readme-images\wireframes-tablet.png)
 
-**June 18, 2024,** Add Mongo back into template
+[Mobile Wireframes](docs\readme-docs\readme-images\wireframes-mobile.png)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+### Features
 
-**May 28 2024:** Fix Mongo and Links installs
+The website is comprised of four pages. Three of them are accessible from the navigation menu (home page, gallery and Win pages). The fourth page is a success page which is shown once the user submits the competition form on the win page.
 
-**April 26 2024:** Update node version to 16
+* All pages on the website have:
 
-**September 20 2023:** Update Python version to 3.9.17.
+  * A responsive navigation bar at the top of the page which allows users to navigate through the website. At the top left of the navigation bar is a logo of a parrot which is circular. Think of this as the mascot for the website which also doubles as a home button when clicked. When viewing the website on mobile devices the navigation bar switches the links to a burger toggler which when clicked opens the navigation links in a sidebar.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  * A footer which contains social media links which all open in a new tab when visited. Icons were used without titles as they are universally recognised.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Home page.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  * A banner image showing the sign of Palms and Peaks Resort. This explains straight away to the user what the website is about.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  * A welcome note section to welcome new users to the website.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  * A new features section which shows the user what new and upcoming features will be available at the re-opening of the resort.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  * An about us section which includes some information about the resort and its history.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  * A section which shows an outline of what the resort has to offer visitors. Originally in my website creation these were supposed to link to their own full sections which were on other pages of the website. (Animals, Exploration, Stays, Shops, Rides, Camping, Beach Bars, Activities)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  * A map section which shows the geographical location of the resort which was found using google maps.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Gallery Page.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  * The gallery page shows a selection of images which show the resort, some animals and the park itself. All of the images were designed using AI. Some of which were to be used in the final project and I didn't want to not use them somewhere. Many hours went into getting many images the way I wanted.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Win page.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  * The win page has a form which can be completed by the user for a chance to win a family holiday.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Success Page.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  * Provides the user a success message for submitting the competition form on the win page.
 
-------
+### Accessibility
 
-## FAQ about the uptime script
+I have throughout the project ensured that the website has been accessibility friendly as possible. This has been achieved by:
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* Using semantic HTML
+* Using descriptive alt attributes on images on the site.
+* Ensuring that there is sufficient colour contrast throughout the website.
+* Ensuring that menu items are accessible by marking the current page as active for screen readers.
 
 ---
 
-Happy coding!
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libaries & Programs Used
+
+Balsamiq - Used to create Wireframes.
+
+Git - For version control.
+
+VS Code - For writing, saving and storing the files used for the website.
+
+Google Fonts - To import fonts used on the website.
+
+Font Awesome - For the iconography used on the website.
+
+Google Dev Tools - To troubleshoot and test all features on the website. Check and resolve issues with the reponsivity on the website across devices.
+
+Google maps - For the location of the resort on the home page.
+
+[Prome AI](https://www.promeai.pro/ai-image-generation) - Used for generating the images used in the final project.
+
+[Tiny Wow (highly recommend)](https://tinywow.com/) - To batch resize multiple images and to convert to WebP format for reduced file size.
+
+[Image Colour Picker](https://imagecolorpicker.com/user/palettes) - Used for generating the palette which has been used throughout the project. The website also generated the names for the colours which are also referred to as their variables.
+
+[Gimp](https://www.gimp.org/) - Used for modifying and editing images used on the website.
+
+[Favicon.io](https://favicon.io/) - To create favicon.
+
+[Am I responsive](http://ami.responsivedesign.is/) - To show the website image across a range of devices.
+
+- - -
+
+## Deployment and local development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Palms-Peaks-P1
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down and select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+To fork the Palms-Peaks-P1 repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, Nchrist89/Palms-Peaks-P1.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the Palms-Peaks-P1 repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, Nchrist89/Palms-Peaks-P1.
+3. Click on the Code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' in the terminal and then paste the link you copied in step 3. Press Enter.
+
+- - -
+
+##Testing
+
+Testing was done throughout the entire build of the website. The website was deployed early to ensure that along the way any issues were dealt with prior to adding further features to ensure the build was being maintained and any issues and bugs were fixed. I utilized Chrome developer tools while checking any issues I faced, pinpointing where problems have arised from and resolving them.
+
+***ADD IN INFORMATION HERE***
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* [Index page HTM](image here)
+* [Gallery Page HTML](image here)
+* [Cometition Page HTML](image here)
+* [Success Page HTML](image here)
+* [style.css CSS](image here)
+
+### Solved Bugs
+
+1. I had an issue with the home page where I found that the image boxes all had a blank white line beneath them causing an issue making them not fit correctly. To correct this I had to look online where I found many other people had the same issue and to resolve it used various methods. In the end I used the display Flex method which removed the blank white line.
+
+2. There was an issue with the cards I had created on the home page where the images would not fit correctly when they were adapting to other devices with responsiveness. After looking online but throughout troubleshooting this issue. I ended up playing around with the options I had available where I found that making the Width of the image 100% and the height as content-fit. This managed to resolve the issue.
+
+3. Creating the about section for the park had caused me quite a headache. The idea came from the love running training and I used some of the knowledge from them but in the end it still wasn't how I wanted it. After asking ChatGPT and explaining what I wanted. It almost supplied code to get this working correctly but in the end I went back to pen and paper and drew out with borders what I desired. whilst also taking some help from the love running code and along with testing I was able to figure out how to do it. After countless hours of failure. It seemed through drawing it with pen and paper allowed me to see what I was unable to before and within 30 minutes I had it figured out.
+
+4. The new features section which houses the new features boxes also caused much stress to resolve how I wanted them visually. Originally these new feature boxes were designed for a Stays.html page which is no longer used in the final project.
+   The new feature box design had to show an image of the new feature and by the side of it with all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen. In order to do this, I had searched the internet but couldn't quite explain how I wanted it and in the end I thought doing this myself would be a challege as I knew I could figure it out (figuring out myself always allows me to learn resolutions in the future easier).
+
+   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. Therefore it was back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive.
+
+### Known Bugs
+
+   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately due to Medical issues and time constraints I am unable to return to the playground to resolve this issue now and it will have to remain but I have tried to add media queries to rectify as best as I can.
+
+### Testing User Stories
+
+* First Time Visitors
+  * I want to be able to see from the home page what the resort offers. The home page allows visitors to see an outline of all the main features of the resort and has a brief description of them.
+  * I want to be able to navigate the site easily and find what I am looking for. All site navigation is through the top navigation bar which is visible on all pages throughout the website.
+
+**Links to images of the sections referred to**
+
+* Returning Visitors
+  * I want to to be able to see if there is anything new since my last visit. A new feature section allows visitors to see what has recently been added to the resort and what they can mainly look forward to in the future.
+
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+#### Index Page
+
+Lighthouse testing:
+**Images**
+
+Suggestions:
+
+1. reduce image file sizes in bytes by converting to WebP format.
+2. resizing the image itself to properly accommodate the size it requires (width and height).
+
+#### Gallery Page
+
+Initial Lighthouse testing:
+
+Suggestions:
+
+Final Lighthouse testing
+
+**Images**
+
+#### Win Page
+
+Initial Lighthouse Testing
+
+Suggestions:
+
+Final Lighthouse testing
+
+#### Success Page
+
+Initial Lighthouse testing:
+
+Suggestions:
+
+Final Lighthouse testing
+
+**Images**
+
+### Full Testing
+
+To fully test my website I performed the following testing on a couple devices. Family and friends mobiles and different browsers on my own machine.
+
+I also went through each page using Chrome Developer Tools to ensure that each page is responsive on all different screen sizes.
+
+Links.
+
+1. Tested each link on the index page. Each link worked as expected and any links leading to external pages opened correctly in a seperate tab.
+2. Tested each link on the gallery page. Each link worked as expected and any links leading to external pages opened correctly in a seperate tab.
+3. Tested each link on the gallery page. Each link worked as expected and any links leading to external pages opened correctly in a seperate tab.
+4. Tested each link on the win page. Each link worked as expected and any links leading to external pages opened correctly in a seperate tab.
+5. Tested each link on the success page. Each link worked as expected and any links leading to external pages opened correctly in a seperate tab.
+
+Competition Form.
+
+1. Testing the competition form. I tried to submit the form without filling any input fields. The form worked correctly and directed users to fill in the empty title field which are radio buttons. I then filled this in and continued to the First Name field.
+2. leaving all other fields empty. Again it pointed out the First Name field was empty and needed to be input.
+3. I then followed this onward through the form for each field and was successfully hit with the notification that the next field had not been input and could not be left empty.
+
+## Credits
+
+### Code used
+
+* [Create responsive Navbar and sidebar](https://www.youtube.com/watch?v=8eFeIFKAKHw)
+* Some code has been autocompleted with the help of AI Copilot. This was turned off mid project as it was too helpful and I wanted to write more myself.
+
+### Content
+
+Content for the website has solely been created by myself and with the assistance of ChatGPT, Sider (AI chrome extension).
+
+### Media
+
+#### Images
+
+* Each image on the website has been created by proving AI with prompts to produce the desired image needed for my content. Prome AI has been mostly used on the home page Although a few others used have been Microsoft Designer, fal.ai, aitubo.ai which if any will be shown on the Gallery page.
+
+### Acknowledgements
+
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+* Jubril Akolade - My Code Institute mentor
+* Code institute for providing the nessesary tutoring support.
+* My Tutor Rachel Furlong for all assitance provided throughout the journey providing assurance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
