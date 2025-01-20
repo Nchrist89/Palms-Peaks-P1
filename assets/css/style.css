@@ -433,6 +433,12 @@ p {
     border: 5px solid var(--copper-canyon);
 }
 
+/* Gallery page */
+
+#photos img {
+    width: 100%;
+}
+
 /* Footer content styles */
 
 #main-content {
@@ -659,6 +665,13 @@ footer {
         left: 20px;
     }
 
+    /* Gallery page media queries */
+
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -773,6 +786,12 @@ footer {
 
     #winform > h2 {
         font-size: 25px;
+    }
+
+    /* Gallery page */
+
+    #photos {
+        column-count: 4;
     }
 
 }
