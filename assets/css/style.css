@@ -35,12 +35,16 @@ body {
 nav {
     height: 65px;
     background-color: var(--eternity);
-    background-image: url("../images/Woodaged1.png");
+    background-image: url("assets/images/Woodaged1.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     border-bottom: 10px solid var(--copper-canyon);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 #logo {
@@ -69,7 +73,7 @@ nav {
 .nav-link {
     height: 75%;
     padding: 0 25px;
-    margin-right: 25px;
+    margin-right: 5px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -81,7 +85,7 @@ nav {
 }
 
 .nav-link:hover {
-    font-size: 23px;
+    font-size: 30px;
 }
 
 nav .fa-solid {
@@ -99,8 +103,10 @@ nav .fa-solid {
 }
 
 /* banner styles */
+
 .banner {
     width: 100%;
+    margin-top: 80px;
     background-color: var(--brown-derby);
 }
 
@@ -147,6 +153,7 @@ nav .fa-solid {
     padding-top: 1rem;
     border-top: 5px solid var(--copper-canyon);
     border-bottom: 5px solid var(--copper-canyon);
+    margin-bottom: 15px;
 }
 
 #winform > h2 {
@@ -200,12 +207,12 @@ p {
 
 .ride-option {
     border-radius: 10px;
-    background-image: url("/assets/images/leaves-bg-red1.png");
+    background-image: url("../images/leaves-bg-red1.png");
     justify-content: center;
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    margin: 10px;
+    margin: 15px;
     height: fit-content;
 }
 
@@ -413,7 +420,7 @@ p {
 .right-text-box {
     width: 40%;
     width: 400px;
-    background-image: url("/assets/images/leaves-greenbg.png");
+    background-image: url("../images/leaves-greenbg.png");
     color: white;
     width: 100%;
 }
@@ -435,8 +442,29 @@ p {
 
 /* Gallery page */
 
+#gallery .section-heading {
+    width: 40%;
+}
+
+#gallery-main {
+    background-image: url("../images/leaves-greenbg.png");
+}
+
+#gallery > h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#photos {
+    line-height: 2em;
+}
+
 #photos img {
     width: 100%;
+}
+
+#gallery {
+    margin-top: 90px;
 }
 
 /* Footer content styles */
@@ -468,7 +496,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: var(--eternity);
-    flex-grow: 1;
 }
 
 .contact-box {
@@ -517,6 +544,10 @@ footer {
         font-size: 1rem;
     }
 
+    .section-heading {
+        padding: 15px;
+    }
+
     /* Navigation / sidebar styles */
     .links-container {
         flex-direction: column;
@@ -526,7 +557,7 @@ footer {
         top: 0;
         right: -200%;
         z-index: 10;
-        width: 170px;
+        width: 200px;
         background-color: black;
         box-shadow: -5px 0 5px rgba(255, 92, 0, 0.25);
         transition: 0.60s ease-out;
@@ -629,7 +660,6 @@ footer {
     #titles {
         max-width: 600px;
     }
-
 }
 
 
@@ -656,6 +686,9 @@ footer {
 
     nav {
         height: 75px;
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     #logo {
@@ -669,7 +702,8 @@ footer {
 
     #photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 15px;
+        margin: 0 15px;
     }
 
 }
@@ -751,12 +785,20 @@ footer {
         text-align: right;
     }
 
+    .resort-features-left {
+        margin-left: 20px;
+    }
+
+    .resort-features-right {
+        margin-right: 20px;
+    }
+
     .resort-features-left p {
-        margin-right: 25px;
+        margin-right: 35px;
     }
 
     .resort-features-right p {
-        margin-left: 25px;
+        margin-left: 35px;
     }
 
 
@@ -767,6 +809,7 @@ footer {
         align-items: center;
         justify-content: space-around;
         width: 40%;
+
     }
 
     .resort-image-box {
@@ -790,8 +833,10 @@ footer {
 
     /* Gallery page */
 
+
     #photos {
         column-count: 4;
+        column-gap: 15px;
     }
 
 }
