@@ -104,13 +104,13 @@ nav .fa-solid {
 
 /* banner styles */
 
-.banner {
+#banner {
     width: 100%;
     margin-top: 80px;
     background-color: var(--brown-derby);
 }
 
-.banner img {
+#banner img {
     display: flex;
     height: fit-content;
     max-height: 500px;
@@ -156,10 +156,6 @@ nav .fa-solid {
     margin-bottom: 15px;
 }
 
-#winform > h2 {
-    padding: 15px;
-}
-
 #success > h1 {
     color: var(--neon-orange);
     font-size: 2rem;
@@ -170,11 +166,11 @@ nav .fa-solid {
     margin: 20px;
 }
 
-#success > p {
+#form-entry {
     border: 4px solid var(--copper-canyon);
     border-radius: 10px;
     background-color: var(--eternity);
-
+    margin: 0 30px;
 }
 
 .container {
@@ -184,7 +180,7 @@ nav .fa-solid {
     justify-content: space-evenly;
 }
 
-.home-features img {
+#home-features img {
     display: flex;
     height: 320px;
     width: 100%;
@@ -205,7 +201,7 @@ p {
     text-align: center;
 }
 
-.ride-option {
+.new-feature {
     border-radius: 10px;
     background-image: url("../images/leaves-bg-red1.png");
     justify-content: center;
@@ -216,11 +212,11 @@ p {
     height: fit-content;
 }
 
-.hotel {
+#hotel {
     background-image: url("../images/leaves-bg-blue.png");
 }
 
-.ride-info {
+.newf-info {
     display: flex;
     flex-direction: column;
     font-size: 19.2px;
@@ -230,7 +226,7 @@ p {
 }
 
 /* Flex removes the empty line below the map */
-.map-container {
+#map-box {
     display: flex;
     width: 100%;
     height: 400px;
@@ -259,6 +255,7 @@ p {
     border-top: none;
     border-radius: 10px 10px 0 0;
     font-size: 18px;
+    padding: 15px;
 }
 
 #form-details {
@@ -312,7 +309,7 @@ p {
     border: 3px solid var(--copper-canyon);
     background-color: var(--eternity);
     border-radius: 15px;
-    margin: 15px;
+    margin-top: 15px;
     width: 100%;
 
 }
@@ -358,7 +355,7 @@ p {
 }
 
 /* Featured section */
-.ride-features {
+.newf-elements {
     list-style-type: none;
     background-color: var(--eternity);
     color: var(--white-smoke);
@@ -371,7 +368,7 @@ p {
 
 }
 
-.ride-option img {
+.new-feature img {
     /* applying flex removes vacant line underneath image */
     float: left;
     height: fit-content;
@@ -379,13 +376,13 @@ p {
     border-radius: 10px 10px 0 0;
 }
 
-.ride-info li {
+.newf-info li {
     margin: 0 8px 8px;
     width: auto;
 }
 
 
-.ride-info .fa-solid {
+.newf-info .fa-solid {
     color: var(--keppel);
     padding-right: 10px;
     font-size: 1.2rem;
@@ -393,7 +390,7 @@ p {
 
 /* Resort section */
 
-.resort-container {
+#resort-container {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -425,15 +422,15 @@ p {
     width: 100%;
 }
 
-.resort-image-box {
+#resort-image-box {
     display: flex;
-    max-width: 350px;
+    max-width: 450px;
     height: fit-content;
     margin: 20px;
 
 }
 
-.resort-image-box img {
+#resort-image-box img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -598,7 +595,7 @@ footer {
         z-index: 9;
     }
 
-    .home-features img {
+    #home-features img {
         height: 250px;
     }
 
@@ -615,23 +612,19 @@ footer {
         text-align: center;
     }
 
-    /* featured ride section */
-    .ride-option {
+    /* New feature section */
+    .new-feature {
         max-width: 450px;
     }
 
-    .ride-option img {
+    .new-feature img {
         /* applying flex removes vacant line underneath image */
         display: flex;
         width: 100%;
         border-radius: 10px 10px 0 0;
     }
 
-    .ride-heading {
-        border-radius: 0 0 0 0;
-    }
-
-    .ride-features {
+    .newf-elements {
         flex-wrap: wrap;
         flex-direction: row;
         border-radius: 0 0 10px 10px;
@@ -639,12 +632,12 @@ footer {
         justify-content: space-evenly;
     }
 
-    .ride-info li {
+    .newf-info li {
         width: 150px;
         padding: 5px;
     }
 
-    .ride-info p {
+    .newf-info p {
         padding: 20px;
     }
 
@@ -667,11 +660,11 @@ footer {
 @media only screen and (min-width: 600px) {
 
     /* home page features boxes media queries */
-    .home-features p {
+    #home-features p {
         border-bottom: none;
     }
 
-    .home-features img {
+    #home-features img {
         border-radius: 10px 10px 0 0;
         border-top: none;
     }
@@ -711,21 +704,17 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    .ride-heading {
-        border-radius: 0 10px 0 0;
-    }
-
-    .ride-features {
+    .newf-elements {
         border-radius: 0 0 10px 0px;
     }
 
-    .ride-option {
+    .new-feature {
         flex-direction: row;
         max-width: 90%;
     }
 
 
-    .ride-info p {
+    .newf-info p {
         font-size: 16px;
         justify-content: center;
         padding: 15px;
@@ -733,7 +722,7 @@ footer {
 
     }
 
-    .ride-option img {
+    .new-feature img {
         width: 400px;
         height: 350px;
         border-radius: 10px 0 0 10px;
@@ -741,7 +730,7 @@ footer {
 
     /* Resort feature media queries */
 
-    .resort-container {
+    #resort-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -785,25 +774,25 @@ footer {
         text-align: right;
     }
 
-    .resort-features-left {
+    #resort-features-left {
         margin-left: 20px;
     }
 
-    .resort-features-right {
+    #resort-features-right {
         margin-right: 20px;
     }
 
-    .resort-features-left p {
+    #resort-features-left p {
         margin-right: 35px;
     }
 
-    .resort-features-right p {
+    #resort-features-right p {
         margin-left: 35px;
     }
 
 
-    .resort-features-left,
-    .resort-features-right {
+    #resort-features-left,
+    #resort-features-right {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -812,7 +801,7 @@ footer {
 
     }
 
-    .resort-image-box {
+    #resort-image-box {
         display: flex;
         position: absolute;
         width: 40%;
@@ -823,6 +812,7 @@ footer {
         margin: 5px;
     }
 
+    /* Competition page media queries */
     #form-box {
         margin: 0 50px 25px;
     }
@@ -831,9 +821,7 @@ footer {
         font-size: 25px;
     }
 
-    /* Gallery page */
-
-
+    /* Gallery page media queries*/
     #photos {
         column-count: 4;
         column-gap: 15px;
@@ -843,48 +831,55 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .ride-info {
+
+    /* New feature media queries*/
+    .newf-info {
         font-size: 22px;
     }
 
-    .ride-option {
+    .new-feature {
         margin-bottom: 30px;
     }
 
-    .ride-info p {
+    .newf-info p {
         font-size: 20px;
     }
 
-    .resort-image-box {
+    /* Resort media queries */
+    #resort-image-box {
         height: fit-content;
         width: 300px;
         top: 25%;
         left: 37%;
     }
 
+    /* Features media queries */
+    .feature-box {
+        width: 600px;
+    }
+
 }
 
 /* XX-large devices 1400px and up) */
 @media only screen and (min-width: 1400px) {
-    .resort-image-box {
+    #resort-image-box {
         width: 350px;
         top: 14%;
         left: 37%;
     }
 }
 
+/* XX-large devices 1600px and up) */
 @media only screen and (min-width: 1600px) {
-    .resort-image-box {
-        width: 350px;
-        top: 14%;
+    #resort-image-box {
         left: 39%;
     }
 }
-
+/* XX-large devices 1900px and up) */
 @media only screen and (min-width: 1900px) {
 
-    .resort-image-box {
-        top: 14%;
-        left: 41%;
+    #resort-image-box {
+        width: 400px;
+        top: 13%;
     }
 }

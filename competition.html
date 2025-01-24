@@ -51,13 +51,13 @@
         <section id="competition">
             <div id="comp-intro">
                 <br><br><br>
-                <p>Enter our competition to win a free family holiday and all inclusive stay at our resort!<br><br> We
+                <p>Enter our competition to win a free family holiday and all inclusive stay at our resort!<br><br>We
                     will be choosing a winner at
-                    random every month for 12 months. Just fill in the form below and you could be the lucky winner!
+                    random every month for 12 months. Just fill in the form below and you could be among one of the lucky winners!
                 </p>
             </div>
 
-            <!-- Form -->
+            <!-- Competition Form -->
             <div id="form-box">
                 <form action="success.html" method="get" id="winform">
                     <h2 class="heading">Win a free family holiday!</h2>
@@ -84,14 +84,13 @@
                                     <input type="radio" id="Ms." name="title" value="Ms.">
                                 </div>
                             </div>
-                            <br><br>
                             <div>
                                 <label for="fname">First Name</label>
-                                <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                                <input type="text" id="fname" name="fname" placeholder="First Name" required pattern="\S(.*\S)?">
                             </div>
                             <div>
                                 <label for="lname">Last Name</label>
-                                <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                                <input type="text" id="lname" name="lname" placeholder="Last Name" required pattern="\S(.*\S)?">
                             </div>
                             <div>
                                 <label for="email">Email</label>
@@ -99,10 +98,10 @@
                             </div>
                             <div>
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                             </div>
                             <div>
-                                <label for="people">Number of people (<em>Max 5 people</em>)</label>
+                                <label for="people">Number of people <em>(Max 5 people)</em></label>
                                 <select name="people" id="people" form="winform" required>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -130,15 +129,13 @@
                             older.
                         </p>
                         <p>2. <strong>Entry</strong>: Participants may enter the competition by submitting a completed
-                            entry
                             form.</p>
                         <p>3. <strong>Competition Timeline</strong>: The competition starts upon the launch of the entry
                             form.</p>
-                        <p>4. <strong>Prize</strong>: The prize consists of one family trip to the Palms and Peaks
-                            Resort
+                        <p>4. <strong>Prize</strong>: Prize consists of a family trip to the Resort
                             for up to 5 people.</p>
-                        <p>5. <strong>Selection of Winners</strong>: Winners will be chosen at random from all valid
-                            entries.</p>
+                        <p>5. <strong>Selection of Winners</strong>: Winners will be chosen at random from all entries.</p>
+
                         <p>6. <strong>Publicity</strong>: By entering, participants agree that Palms and Peaks Resort
                             may
                             use their name.</p>
@@ -207,7 +204,7 @@
                             <p>Open 365 days a year!</p>
                         </div>
                     </div>
-            </section>
+                </div>
             </section>
         </footer>
 
