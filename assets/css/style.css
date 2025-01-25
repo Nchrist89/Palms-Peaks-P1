@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Shojumaru&display=swap');
 
@@ -24,7 +31,8 @@ body {
     font-family: "klee One", sans-serif;
     font-size: 1.2rem;
     background-color: var(--brown-derby);
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 p {
@@ -35,10 +43,18 @@ p {
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .hidden {
@@ -81,9 +97,15 @@ nav {
     background-color: var(--eternity);
     background-image: url("assets/images/Woodaged1.png");
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-bottom: 10px solid var(--copper-canyon);
     position: fixed;
     top: 0;
@@ -108,18 +130,31 @@ nav {
 .links-container {
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .nav-link {
     height: 75%;
     padding: 0 25px;
     margin-right: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
     font-family: "Shojumaru";
     font-size: 25px;
@@ -155,7 +190,11 @@ nav .fa-solid {
 }
 
 #banner img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     max-height: 500px;
     width: 100%;
@@ -182,11 +221,20 @@ nav .fa-solid {
 .new-feature {
     border-radius: 10px;
     background-image: url("../images/leaves-bg-red1.png");
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 350px;
     margin: 15px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
@@ -195,8 +243,13 @@ nav .fa-solid {
 }
 
 .newf-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-size: 19.2px;
     color: #FFFDD0;
     width: 100%;
@@ -208,9 +261,14 @@ nav .fa-solid {
     background-color: var(--eternity);
     color: var(--white-smoke);
     border-radius: 0 0 10px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     font-size: 18px;
     padding: 5px;
 
@@ -219,6 +277,8 @@ nav .fa-solid {
 .new-feature img {
     /* applying flex removes vacant line underneath image */
     float: left;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -238,10 +298,17 @@ nav .fa-solid {
 
 /* Resort section */
 #resort-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: relative;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
 }
 
@@ -270,8 +337,12 @@ nav .fa-solid {
 }
 
 #resort-image-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 450px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin: 20px;
 
@@ -286,6 +357,8 @@ nav .fa-solid {
 
 /* Main features section styles */
 #home-features img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 320px;
     width: 100%;
@@ -296,11 +369,15 @@ nav .fa-solid {
     background-image: url("../images/leaves-greenbg.png");
     width: 350px;
     max-width: 400px;
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
 }
 
 /* map section styles */
 #map-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     /* Flex removes the empty line below the map */
     width: 100%;
@@ -340,9 +417,16 @@ nav .fa-solid {
 
 /* competition page styles */
 #competition {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-image: url("../images/leaves-greenbg.png");
 }
 
@@ -365,9 +449,14 @@ nav .fa-solid {
 }
 
 #form-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 #form-details label {
@@ -389,12 +478,16 @@ nav .fa-solid {
 }
 
 #form-details > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     border: 3px solid var(--copper-canyon);
     background-color: var(--eternity);
     border-radius: 15px;
-    flex-basis: 470px;
+    -ms-flex-preferred-size: 470px;
+        flex-basis: 470px;
     padding: 10px;
     margin: 10px;
 }
@@ -409,9 +502,14 @@ nav .fa-solid {
 }
 
 #titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     border: 3px solid var(--copper-canyon);
     background-color: var(--eternity);
     border-radius: 15px;
@@ -425,6 +523,8 @@ nav .fa-solid {
 }
 
 #form-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: var(--brown-derby);
     border: 5px solid var(--copper-canyon);
@@ -433,8 +533,12 @@ nav .fa-solid {
 }
 
 #form-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin: 20px;
     padding: 15px;
 }
@@ -492,15 +596,21 @@ footer {
 }
 
 .container-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     background-color: var(--eternity);
 }
 
 .contact-box {
     text-align: center;
-    flex-basis: 400px;
+    -ms-flex-preferred-size: 400px;
+        flex-basis: 400px;
 }
 
 .social-link {
@@ -550,25 +660,38 @@ footer {
 
     /* Navigation / sidebar styles */
     .links-container {
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
         position: fixed;
         top: 0;
         right: -200%;
         z-index: 10;
         width: 200px;
         background-color: black;
-        box-shadow: -5px 0 5px rgba(255, 92, 0, 0.25);
+        -webkit-box-shadow: -5px 0 5px rgba(255, 92, 0, 0.25);
+                box-shadow: -5px 0 5px rgba(255, 92, 0, 0.25);
+        -webkit-transition: 0.60s ease-out;
+        -o-transition: 0.60s ease-out;
         transition: 0.60s ease-out;
     }
 
     .nav-link {
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         height: auto;
         width: 100%;
         padding: 20px 30px;
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 
     nav {
@@ -622,17 +745,25 @@ footer {
 
     .new-feature img {
         /* applying flex removes vacant line underneath image */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
         border-radius: 10px 10px 0 0;
     }
 
     .newf-elements {
-        flex-wrap: wrap;
-        flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         border-radius: 0 0 10px 10px;
         padding: 10px;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
 
     .newf-info li {
@@ -673,7 +804,8 @@ footer {
     }
 
     .feature-box {
-        flex-basis: 320px;
+        -ms-flex-preferred-size: 320px;
+            flex-basis: 320px;
         border-radius: 10px;
         margin: 1rem;
     }
@@ -697,8 +829,12 @@ footer {
     /* Gallery page media queries */
 
     #photos {
-        column-count: 2;
-        column-gap: 15px;
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2;
+        -webkit-column-gap: 15px;
+           -moz-column-gap: 15px;
+                column-gap: 15px;
         margin: 0 15px;
     }
 
@@ -712,14 +848,19 @@ footer {
     }
 
     .new-feature {
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         max-width: 90%;
     }
 
 
     .newf-info p {
         font-size: 16px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding: 15px;
         margin: auto;
 
@@ -734,11 +875,20 @@ footer {
     /* Resort feature media queries */
 
     #resort-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         position: relative;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-top: 20px;
         margin-bottom: auto;
     }
@@ -760,7 +910,8 @@ footer {
     }
 
     .left-text-box {
-        align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
         margin-top: 15px;
     }
 
@@ -769,7 +920,8 @@ footer {
     }
 
     .right-text-box {
-        align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
         margin-top: 15px;
     }
 
@@ -796,15 +948,25 @@ footer {
 
     #resort-features-left,
     #resort-features-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 40%;
 
     }
 
     #resort-image-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         position: absolute;
         width: 40%;
@@ -826,8 +988,12 @@ footer {
 
     /* Gallery page media queries*/
     #photos {
-        column-count: 4;
-        column-gap: 15px;
+        -webkit-column-count: 4;
+           -moz-column-count: 4;
+                column-count: 4;
+        -webkit-column-gap: 15px;
+           -moz-column-gap: 15px;
+                column-gap: 15px;
     }
 
 }
@@ -850,6 +1016,8 @@ footer {
 
     /* Resort media queries */
     #resort-image-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         width: 300px;
         top: 25%;
