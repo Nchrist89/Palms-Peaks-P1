@@ -11,7 +11,7 @@
     <meta name="keywords"
         content="Palms and Peaks, resort, holiday, tropical, getaway, beach, rides, rollercoaster, nature, animals">
     <!-- Title -->
-    <title>Palms & Peaks | Home</title>
+    <title>Palms & Peaks | Win</title>
     <!-- Favicons and Apple touch icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -40,7 +40,7 @@
                 </label>
                 <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="gallery.html">Gallery</a>
-                <a class="nav-link" href="competition.html">Win!</a>
+                <a class="nav-link" href="win.html">Win!</a>
             </div>
         </nav>
     </header>
@@ -97,16 +97,17 @@
                             </div>
                             <div>
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="Email" required>
+                                <input type="email" id="email" name="email" placeholder="Email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"> <!-- Email pattern-->
                             </div>
                             <div>
                                 <label for="phone">Phone Number</label>
                                 <input type="tel" id="phone" name="phone" placeholder="Phone Number" required
-                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                    pattern="^\+?[1-9]\d{0,2}[-. ]?\(?\d{1,4}?\)?[-. ]?\d{1,4}[-. ]?\d{1,4}[-. ]?\d{0,9}$"> <!-- Pattern for global phone number -->
                             </div>
                             <div>
                                 <label for="people">Number of people <em>(Max 5 people)</em></label>
-                                <select name="people" id="people" form="winform" required>
+                                <select name="num_people" id="people" form="winform" required>
+                                    <option value="" disabled selected>Select an option</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
