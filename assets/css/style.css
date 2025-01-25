@@ -7,20 +7,8 @@
     margin: 0;
 }
 
-/* Global Styles */
-body {
-    font-family: "klee One", sans-serif;
-    font-size: 1.2rem;
-    background-color: var(--brown-derby);
-    box-sizing: border-box;
-}
-
-.hidden {
-    display: none;
-}
-
+/* CSS HEX color palette*/
 :root {
-    /* CSS HEX color palette*/
     --neon-orange: #ff5e00;
     --brown-derby: #402d13;
     --keppel: #3aaeaa;
@@ -29,6 +17,62 @@ body {
     --eternity: #1c1f0c;
     --white-smoke: #f5f5f5;
     --white-cream: #FFFDD0;
+}
+
+/* Global Styles */
+body {
+    font-family: "klee One", sans-serif;
+    font-size: 1.2rem;
+    background-color: var(--brown-derby);
+    box-sizing: border-box;
+}
+
+p {
+    color: #FFFDD0;
+    text-shadow: 3px 3px 3px black;
+    padding: 25px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hidden {
+    display: none;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 2px;
+    background-image: url("../images/wood-aged.webp");
+    background-color: var(--brown-derby);
+    padding-bottom: 1rem;
+    text-shadow: var(--eternity) 5px 5px 5px;
+    padding-top: 1rem;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 2px;
+    background-color: var(--eternity);
+    padding-bottom: 1rem;
+    text-shadow: var(--eternity) 5px 5px 5px;
+    padding-top: 1rem;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
+    margin-bottom: 15px;
 }
 
 /* Navigation / sidebar styles */
@@ -102,8 +146,9 @@ nav .fa-solid {
     display: none;
 }
 
-/* banner styles */
+/* Main content styles */
 
+/* banner styles */
 #banner {
     width: 100%;
     margin-top: 80px;
@@ -115,45 +160,13 @@ nav .fa-solid {
     height: fit-content;
     max-height: 500px;
     width: 100%;
-
 }
 
-/* Main content styles */
-
+/* Welcome note styles */
 #welcome-note {
     border: 2px solid var(--copper-canyon);
     background-color: var(--eternity);
     margin: 25px;
-}
-
-.heading {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: "Shojumaru";
-    color: var(--neon-orange);
-    letter-spacing: 2px;
-    background-image: url("../images/wood-aged.webp");
-    background-color: var(--brown-derby);
-    padding-bottom: 1rem;
-    text-shadow: var(--eternity) 5px 5px 5px;
-    padding-top: 1rem;
-    border-top: 5px solid var(--copper-canyon);
-    border-bottom: 5px solid var(--copper-canyon);
-}
-
-.section-heading {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: "Shojumaru";
-    color: var(--neon-orange);
-    letter-spacing: 2px;
-    background-color: var(--eternity);
-    padding-bottom: 1rem;
-    text-shadow: var(--eternity) 5px 5px 5px;
-    padding-top: 1rem;
-    border-top: 5px solid var(--copper-canyon);
-    border-bottom: 5px solid var(--copper-canyon);
-    margin-bottom: 15px;
 }
 
 #success > h1 {
@@ -166,41 +179,7 @@ nav .fa-solid {
     margin: 20px;
 }
 
-#form-entry {
-    border: 4px solid var(--copper-canyon);
-    border-radius: 10px;
-    background-color: var(--eternity);
-    margin: 0 30px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#home-features img {
-    display: flex;
-    height: 320px;
-    width: 100%;
-    border-top: 1px solid var(--neon-orange);
-}
-
-.feature-box {
-    background-image: url("../images/leaves-greenbg.png");
-    width: 350px;
-    max-width: 400px;
-    flex-grow: 1;
-}
-
-p {
-    color: #FFFDD0;
-    text-shadow: 3px 3px 3px black;
-    padding: 25px;
-    text-align: center;
-}
-
+/* New features styles */
 .new-feature {
     border-radius: 10px;
     background-image: url("../images/leaves-bg-red1.png");
@@ -225,14 +204,116 @@ p {
     text-align: center;
 }
 
-/* Flex removes the empty line below the map */
-#map-box {
+.newf-elements {
+    list-style-type: none;
+    background-color: var(--eternity);
+    color: var(--white-smoke);
+    border-radius: 0 0 10px 10px;
     display: flex;
-    width: 100%;
-    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 18px;
+    padding: 5px;
+
 }
 
-/* competition page */
+.new-feature img {
+    /* applying flex removes vacant line underneath image */
+    float: left;
+    height: fit-content;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.newf-info li {
+    margin: 0 8px 8px;
+    width: auto;
+}
+
+
+.newf-info .fa-solid {
+    color: var(--keppel);
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+
+/* Resort section */
+#resort-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.resort-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Shojumaru";
+    color: var(--neon-orange);
+    letter-spacing: 2px;
+    background-image: url("../images/wood-aged.webp");
+    background-color: var(--brown-derby);
+    padding-bottom: 1rem;
+    text-shadow: var(--eternity) 5px 5px 5px;
+    padding-top: 10px;
+    border-top: 5px solid var(--copper-canyon);
+    border-bottom: 5px solid var(--copper-canyon);
+}
+
+.left-text-box,
+.right-text-box {
+    width: 40%;
+    width: 400px;
+    background-image: url("../images/leaves-greenbg.png");
+    color: white;
+    width: 100%;
+}
+
+#resort-image-box {
+    display: flex;
+    max-width: 450px;
+    height: fit-content;
+    margin: 20px;
+
+}
+
+#resort-image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--copper-canyon);
+}
+
+/* Main features section styles */
+#home-features img {
+    display: flex;
+    height: 320px;
+    width: 100%;
+    border-top: 1px solid var(--neon-orange);
+}
+
+.feature-box {
+    background-image: url("../images/leaves-greenbg.png");
+    width: 350px;
+    max-width: 400px;
+    flex-grow: 1;
+}
+
+/* map section styles */
+#map-box {
+    display: flex;
+    /* Flex removes the empty line below the map */
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/* competition page styles */
 #competition {
     display: flex;
     flex-direction: column;
@@ -354,91 +435,15 @@ p {
     background-color: var(--eternity);
 }
 
-/* Featured section */
-.newf-elements {
-    list-style-type: none;
+/* Success page styles */
+#form-entry {
+    border: 4px solid var(--copper-canyon);
+    border-radius: 10px;
     background-color: var(--eternity);
-    color: var(--white-smoke);
-    border-radius: 0 0 10px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-size: 18px;
-    padding: 5px;
-
-}
-
-.new-feature img {
-    /* applying flex removes vacant line underneath image */
-    float: left;
-    height: fit-content;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-}
-
-.newf-info li {
-    margin: 0 8px 8px;
-    width: auto;
-}
-
-
-.newf-info .fa-solid {
-    color: var(--keppel);
-    padding-right: 10px;
-    font-size: 1.2rem;
-}
-
-/* Resort section */
-
-#resort-container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    width: 100%;
-}
-
-.resort-heading {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: "Shojumaru";
-    color: var(--neon-orange);
-    letter-spacing: 2px;
-    background-image: url("../images/wood-aged.webp");
-    background-color: var(--brown-derby);
-    padding-bottom: 1rem;
-    text-shadow: var(--eternity) 5px 5px 5px;
-    padding-top: 10px;
-    border-top: 5px solid var(--copper-canyon);
-    border-bottom: 5px solid var(--copper-canyon);
-}
-
-.left-text-box,
-.right-text-box {
-    width: 40%;
-    width: 400px;
-    background-image: url("../images/leaves-greenbg.png");
-    color: white;
-    width: 100%;
-}
-
-#resort-image-box {
-    display: flex;
-    max-width: 450px;
-    height: fit-content;
-    margin: 20px;
-
-}
-
-#resort-image-box img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 5px solid var(--copper-canyon);
+    margin: 0 30px;
 }
 
 /* Gallery page */
-
 #gallery .section-heading {
     width: 40%;
 }
