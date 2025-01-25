@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Klee+One&family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Shojumaru&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -147,7 +147,6 @@ nav .fa-solid {
 }
 
 /* Main content styles */
-
 /* banner styles */
 #banner {
     width: 100%;
@@ -313,6 +312,32 @@ nav .fa-solid {
     height: 100%;
 }
 
+/* Gallery page */
+#gallery .section-heading {
+    width: 40%;
+}
+
+#gallery-main {
+    background-image: url("../images/leaves-greenbg.png");
+}
+
+#gallery > h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#photos {
+    line-height: 2em;
+}
+
+#photos img {
+    width: 100%;
+}
+
+#gallery {
+    margin-top: 90px;
+}
+
 /* competition page styles */
 #competition {
     display: flex;
@@ -443,34 +468,7 @@ nav .fa-solid {
     margin: 0 30px;
 }
 
-/* Gallery page */
-#gallery .section-heading {
-    width: 40%;
-}
-
-#gallery-main {
-    background-image: url("../images/leaves-greenbg.png");
-}
-
-#gallery > h1 {
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
-#photos {
-    line-height: 2em;
-}
-
-#photos img {
-    width: 100%;
-}
-
-#gallery {
-    margin-top: 90px;
-}
-
 /* Footer content styles */
-
 #main-content {
     /* keeps the footer at the nbottom of the success page. */
     height: 100vh;
