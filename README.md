@@ -6,12 +6,93 @@ Palms and Peaks resort is a website which is responsive website which allows vis
 
 [View Palms and Peaks on GitHub Pages](https://nchrist89.github.io/Palms-Peaks-P1/)
 
+## Introduction
+
+This has been my first website build. I wasn't exactly sure what to build for my website. It took a few days and within that time I had the idea to build a website for a theme park but I had many different idea's and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do.
+
+when thinking of a Tropical resort I had in mind the colour and feel to what has become the final outcome of the project. it's what I had wanted to create. If you know of Crash bandicoot, Some inspiration from Crash cove and the first couple tropical levels gave me some ideas on the feel and vibrancy I wanted.
+
+Unfortunately mid way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I haven't been entirely back to full health since and so I had to slim down the project after taking some time out. I am still happy with the end product. I wanted to build a purely HTML / CSS website and attempt to use flexbox as I wanted to learn that as much as I could before moving on to other technology such as bootstrap which I understand will be used in another upcoming project anyway. There have been many stressfull times on the build but lots of lessons have been learnt. I have had so much fun building this project and along the way I have learnt some improvements I can implement next time. Mainly to do with planning, I would like to fully plan out the coding and structure of the code first I will most likely need.
+
+Anyways, I hope you have fun checking out my first website!
+
 ## CONTENTS
--LINKS TO SECTIONS IN README
+- [Palms and Peaks Resort website](#palms-and-peaks-resort-website)
+  - [Introduction](#introduction)
+  - [CONTENTS](#contents)
+  - [User Experience (UX)](#user-experience-ux)
+    - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+    - [Features](#features)
+    - [Accessibility](#accessibility)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libaries \& Programs Used](#frameworks-libaries--programs-used)
+  - [Deployment and local development](#deployment-and-local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+      - [How to Fork](#how-to-fork)
+      - [How to Clone](#how-to-clone)
+  - [Testing](#testing)
+    - [W3C Validator](#w3c-validator)
+    - [Solved Bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
+    - [Testing User Stories](#testing-user-stories)
+    - [Lighthouse](#lighthouse)
+      - [Index Page](#index-page)
+      - [Gallery Page](#gallery-page)
+      - [Win Page](#win-page)
+      - [Success Page](#success-page)
+    - [Full Testing](#full-testing)
+  - [Credits](#credits)
+    - [Code used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+      - [Images](#images)
+    - [Acknowledgements](#acknowledgements)
 ___
 ## User Experience (UX)
 
-**UX information**
+Initial Planning
+
+When deciding that I would build a resort website with attractions. My scope for the project was very large so the final result wasn't what I had originally planned but I believe it's still good as it stands as a website to gain interest in the reopening of the resort.
+
+Due to the wildlife sanctuary's recent exansion in the past decade, The owner has decided to make some major improvements overall to the resort as a whole. Some of the features already seen in the resort have been improved upon while many new features have been added to the resort. The website is designed to give potential visitors a sneak peak at what they can look forward to at the reopening and a chance to win a family holiday when it reopens in early 2025.
+
+**Key information for the site**
+
+* What can I look forward to do at the resort re-opening.
+* What is a new addition to the resort which I can look forward to.
+* Provides descriptive information about the resort and the features available.
+* Where can I subscribe to a newsletter to the resort.
+
+### User Stories
+
+**Client Goals**
+
+* For the site to be viewed on a range of different devices.
+* Be able to see what the resort is and what is available to do within the resort.
+* For users to be able to contact the resort if needed for further information.
+* To see anything new which the resort has recently added as a new feature.
+
+**First Time Visitor Goals**
+
+* I want to see what I can look forward to at the re-opening of the resort.
+* * I want to be able to navigate the site easily and find what I am looking for.
+* I want to see what new features have been added to the resort.
+* I want to be able to see pictures of the resort, the animals and the rides available in the resort.
+* I want to be able to find out how I can contact the resort and where it is located.
+* I want to find out about the resort itself and why I should be excited.
+
+**Returning visitor goals**
+
+* I would like to see if there has been anything recently added to the resorts new features prior to the reopening.
+* I would like to contact the resort and pre-plan a visit to the resort.
+* After checking availability with family and friends I would like to enter the competition.
 
 ## Design
 
@@ -21,7 +102,13 @@ ___
 
 This is the colour palette I have used in the website. They were taken from the original image I was going to use as the main banner for the homepage. The colour palette was created using the [Image Colour Picker](https://imagecolorpicker.com/) website. The website provided different names for the colours so they are Tropical Themed in my website variable names but the Hexcodes remain the same.
 
+The picture used to pick out my hexcodes used:
+
+   ![Original Palms & Peaks Banner](docs\readme-docs\readme-images\colour-palette-image.png)
+
 ### Typography
+
+When choosing the font I wanted it to feel quirky and tropical and fun. Shojumaru was pretty much what I had visioned and straight away I knew it was the font I would use for headings. Klee One was one of many chosen but won the position to take the body text spot for my website.
 
 Google Fonts was used for the following fonts:
 
@@ -57,17 +144,29 @@ The website is comprised of four pages. Three of them are accessible from the na
 
 * Home page.
 
-  * A banner image showing the sign of Palms and Peaks Resort. This explains straight away to the user what the website is about.
+  * A banner image showing the sign of Palms and Peaks Resort. This explains straight away to users and what to expect from the website.
+
+   ![Banner](docs\readme-docs\readme-images\palmsandpeaks.png)
 
   * A welcome note section to welcome new users to the website.
 
-  * A new features section which shows the user what new and upcoming features will be available at the re-opening of the resort.
+   ![Welcome note](docs\readme-docs\readme-images\welcome-note.png)
+
+  * A new features section which shows the user what new and upcoming features will be available to look forward to.
+
+   ![New Features](docs\readme-docs\readme-images\whats-new.png)
 
   * An about us section which includes some information about the resort and its history.
 
+   ![About Resort](docs\readme-docs\readme-images\about-the-resort.png)
+
   * A section which shows an outline of what the resort has to offer visitors. Originally in my website creation these were supposed to link to their own full sections which were on other pages of the website. (Animals, Exploration, Stays, Shops, Rides, Camping, Beach Bars, Activities)
 
+   ![Resort Features](docs\readme-docs\readme-images\park-features.png)
+
   * A map section which shows the geographical location of the fictional resort which was found using google maps.
+
+   ![Map](docs\readme-docs\readme-images\map.png)
 
 * Gallery Page.
 
@@ -89,8 +188,6 @@ I have throughout the project ensured that the website has been accessibility fr
 * Using descriptive alt attributes on images on the site.
 * Ensuring that there is sufficient colour contrast throughout the website.
 * Ensuring that menu items are accessible by marking the current page as active for screen readers.
-
----
 
 ## Technologies Used
 
@@ -163,8 +260,6 @@ To clone the Palms-Peaks-P1 repository:
 
 Testing was done throughout the entire build of the website. The website was deployed early to ensure that along the way any issues were dealt with prior to adding further features to ensure the build was being maintained and any issues and bugs were fixed. I utilized Chrome developer tools while checking any issues I faced, pinpointing where problems have arised from and resolving them.
 
-***ADD IN INFORMATION HERE***
-
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -177,16 +272,31 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Solved Bugs
 
-1. I had an issue with the home page where I found that the image boxes all had a blank white line beneath them causing an issue making them not fit correctly. To correct this I had to look online where I found many other people had the same issue and to resolve it used various methods. In the end I used the display Flex method which removed the blank white line.
+1. I had an issue with the home page where I found that the image boxes all had a blank white line beneath them or vertically on the right side causing an issue making them fit correctly. To correct this I had to look online where I found many other people had the same issue and to resolve it used various methods. In the end I used the display Flex method which removed the blank white line.
 
-2. There was an issue with the cards I had created on the home page where the images would not fit correctly when they were adapting to other devices with responsiveness. After looking online but throughout troubleshooting this issue. I ended up playing around with the options I had available where I found that making the Width of the image 100% and the height as content-fit. This managed to resolve the issue.
+   ![Bug fix 1](docs/readme-docs/readme-images/bugfix1.png)
 
-3. Creating the about section for the park had caused me quite a headache. The idea came from the love running training and I used some of the knowledge from them but in the end it still wasn't how I wanted it. After asking ChatGPT and explaining what I wanted. It almost supplied code to get this working correctly but in the end I went back to pen and paper and drew out with borders what I desired. whilst also taking some help from the love running code and along with testing I was able to figure out how to do it. After countless hours of failure. It seemed through drawing it with pen and paper allowed me to see what I was unable to before and within 30 minutes I had it figured out.
+2. There was an issue with the main feature cards I had created on the home page where the images would not fit correctly when they were adapting to other devices responsively. After looking online and through troubleshooting this issue. I ended up playing around with the options I had available where I found that making the Width of the image 100% to it's container and the height as content-fit. This managed to resolve the issue.
 
-4. The new features section which houses the new features boxes also caused much stress to resolve how I wanted them visually. Originally these new feature boxes were designed for a Stays.html page which is no longer used in the final project.
-   The new feature box design had to show an image of the new feature and by the side of it with all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen. In order to do this, I had searched the internet but couldn't quite explain how I wanted it and in the end I thought doing this myself would be a challege as I knew I could figure it out (figuring out myself always allows me to learn resolutions in the future easier).
+3. Creating the about section for the park caused me quite a headache. The idea came from the love running training to use 4 text boxes around a central image which is circular. I used some of the knowledge from the tutorial video but in the end it still wasn't how I wanted it visually.
 
-   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. Therefore it was back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive.
+   After asking ChatGPT and explaining what I wanted, It almost supplied code to get it visually correct but after a few hours testing various code supplied. It was never right. So I went back to pen and paper and drew out with borders what I desired. whilst also taking some help from the love running code by ensuring the 2 left and right text boxes were housed in their own div, along with testing I was able to figure out how to do it. After countless hours of failure. It seemed through drawing it with pen and paper allowed me to see what I was unable to before and within 30 minutes I had it figured out.
+
+   ![Bug fix 3](docs\readme-docs\readme-images\bugfix3-2.png)
+   ![Bug fix 3](docs\readme-docs\readme-images\bugfix3.png)
+
+4. The new features boxes also caused me hours of trial and error as I worked through multiple bugs while configuring the layout to shift from column to row when the screen resolution exceeded 992px. These feature boxes were originally designed for a stays.html page which is no longer part of the final project.
+
+   The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challege as I knew I could figure it out.
+
+   ![Bug fix 4 idea](docs\readme-docs\readme-images\bugfix4-vision-for-idea.png)
+
+   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. Therefore it was back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 10 different bug fixes just on this one feature.
+
+   ![Bug fix 4](docs\readme-docs\readme-images\bugfix4.png)
+   ![Bug fix 4-1](docs\readme-docs\readme-images\bugfix4-1.png)
+
+5. There have been many other smaller bugs which I came across during the process of building the website which I could reference here too but they didn't take very long to fix or very little research to find out how to resolve but there have been many more than the 4 I have been able to remember now writing this. Next time I will write anything down I believe is worth adding to my next project readme.
 
 ### Known Bugs
 
@@ -196,14 +306,30 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * First Time Visitors
   * I want to be able to see from the home page what the resort offers. The home page allows visitors to see an outline of all the main features of the resort and has a brief description of them.
-  * I want to be able to navigate the site easily and find what I am looking for. All site navigation is through the top navigation bar which is visible on all pages throughout the website.
 
-![Main features of resort](docs\readme-docs\readme-images\park-features.png)
+  ![Main features of resort](docs\readme-docs\readme-images\park-features.png)
+
+  * I want to be able to navigate the site easily and find what I am looking for. All site navigation is through the top navigation bar which is visible on all pages throughout the website. When viewed on a mobile device the navigation bar collapses into a hambuger icon which can be clicked to pull out a sidebar which includs the navigation links.
+
+  ![Site navigation](docs\readme-docs\readme-images\navbar1.png)
+  ![Sidebar](docs\readme-docs\readme-images\sidebar1.png)
+
+  * I want to be able to see pictures of the resort, the animals and the rides available in the resort. A gallery has been added to give the resort and animals attention and give the users a feel of the vibrancy and excitement and animals it has housed.
+
+  ![Gallery section](docs\readme-docs\readme-images\gallery.png)
+
+  * I want to be able to find out how I can contact the resort and where it is located. At the bottom of the website users are able to find the contact information in the footer of the page.
+
+  ![Contact information](docs\readme-docs\readme-images\contact-information.png)
+
 
 * Returning Visitors
   * I want to to be able to see if there is anything new since my last visit. A new feature section allows visitors to see what has recently been added to the resort and what they can mainly look forward to in the future.
 
-![New Features](docs\readme-docs\readme-images\whats-new.png)
+   ![New Features](docs\readme-docs\readme-images\whats-new.png)
+
+  * After checking availability with family and friends I would like to enter the competition. Competition is available through the main navigation to access.
+
 
 ### Lighthouse
 
@@ -211,41 +337,26 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Index Page
 
-Lighthouse testing:
-**Images**
-
 Suggestions:
 
 1. reduce image file sizes in bytes by converting to WebP format.
 2. resizing the image itself to properly accommodate the size it requires (width and height).
 
+Final lighthouse testing
+
+![Home page](docs\readme-docs\readme-images\lighthouse-home.png)
+
 #### Gallery Page
 
-Initial Lighthouse testing:
-
-Suggestions:
-
-Final Lighthouse testing
-
-**Images**
+![Gallery Page](docs\readme-docs\readme-images\lighthouse-gallery.png)
 
 #### Win Page
 
-Initial Lighthouse Testing
-
-Suggestions:
-
-Final Lighthouse testing
+![Win page](docs\readme-docs\readme-images\lighthouse-win.png)
 
 #### Success Page
 
-Initial Lighthouse testing:
-
-Suggestions:
-
-Final Lighthouse testing
-
-**Images**
+![Success page](docs\readme-docs\readme-images\lighthouse-success.png)
 
 ### Full Testing
 
@@ -267,12 +378,18 @@ Competition Form.
 2. leaving all other fields empty. Again it pointed out the First Name field was empty and needed to be input.
 3. I then followed this onward through the form for each field and was successfully hit with the notification that the next field had not been input and could not be left empty.
 
+Responsiveness.
+
+1. I have tested the responsiveness of the website from the very beginning of the development and tried to ensure that the entire website is responsive throughout the build.
+2. I have tested using friends and families own devices and also sent the Github pages link to multiple friends and family to request them to test on their devices. I have had some issues on some devices but most have been fine. Usually it comes down to the breakpoints being slightly different on some devices. I have tried my best to make sure it looks fine without causing the layout to break on other devices while fixing the ones I have tried.
+
 ## Credits
 
 ### Code used
 
 * [Create responsive Navbar and sidebar](https://www.youtube.com/watch?v=8eFeIFKAKHw)
 * Some code has been autocompleted with the help of AI Copilot. This was turned off mid project as it was too helpful and I wanted to write more myself.
+* I have had many helpful tips from watching Kevin Powell on youtube.
 
 ### Content
 
@@ -282,7 +399,7 @@ Content for the website has solely been created by myself and with the assistanc
 
 #### Images
 
-* Each image on the website has been created by proving AI with prompts to produce the desired image needed for my content. Prome AI has been mostly used on the home page Although a few others used have been Microsoft Designer, fal.ai, aitubo.ai which if any will be shown on the Gallery page.
+* Each image on the website has been created by providing AI with prompts to produce the desired image needed for my content. Prome AI has been mostly used on the home page Although a few others used have been Microsoft Designer, fal.ai, aitubo.ai which if any will be shown on the Gallery page.
 
 ### Acknowledgements
 
@@ -291,42 +408,3 @@ I would like to acknowledge the following people who helped me along the way in 
 * Jubril Akolade - My Code Institute mentor
 * Code institute for providing the nessesary tutoring support.
 * My Tutor Rachel Furlong for all assitance provided throughout the journey providing assurance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
