@@ -2,9 +2,9 @@
 
 Palms and Peaks resort is a website which is responsive website which allows visitors to view on a range of devices from Mobile to Large computer monitors.
 
-**AM I RESPONSIVE SCREENSHOT**
+![Am I Responsive](docs/readme-docs/readme-images/am-i-responsive.png)
 
-**LINK TO WEBSITE ON GITHUB**
+[View Palms and Peaks on GitHub Pages](https://nchrist89.github.io/Palms-Peaks-P1/)
 
 ## CONTENTS
 -LINKS TO SECTIONS IN README
@@ -31,7 +31,7 @@ Google Fonts was used for the following fonts:
 
 ### Imagery
 
-All images throughout the website have been generated using [Prome AI](https://www.promeai.pro/ai-image-generation) website.
+All images on the homepage of the website have been generated using [Prome AI](https://www.promeai.pro/ai-image-generation) website. Images from the Gallery are from various AI image tools Microsoft Designer, fal.ai, aitubo.ai.
 
 Images for styling purposes such as the navigation bar wooden pattern and heading backgrounds was taken from google images.
 
@@ -67,7 +67,7 @@ The website is comprised of four pages. Three of them are accessible from the na
 
   * A section which shows an outline of what the resort has to offer visitors. Originally in my website creation these were supposed to link to their own full sections which were on other pages of the website. (Animals, Exploration, Stays, Shops, Rides, Camping, Beach Bars, Activities)
 
-  * A map section which shows the geographical location of the resort which was found using google maps.
+  * A map section which shows the geographical location of the fictional resort which was found using google maps.
 
 * Gallery Page.
 
@@ -126,8 +126,6 @@ Google maps - For the location of the resort on the home page.
 
 [Am I responsive](http://ami.responsivedesign.is/) - To show the website image across a range of devices.
 
-- - -
-
 ## Deployment and local development
 
 ### Deployment
@@ -161,9 +159,7 @@ To clone the Palms-Peaks-P1 repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' in the terminal and then paste the link you copied in step 3. Press Enter.
 
-- - -
-
-##Testing
+## Testing
 
 Testing was done throughout the entire build of the website. The website was deployed early to ensure that along the way any issues were dealt with prior to adding further features to ensure the build was being maintained and any issues and bugs were fixed. I utilized Chrome developer tools while checking any issues I faced, pinpointing where problems have arised from and resolving them.
 
@@ -173,11 +169,11 @@ Testing was done throughout the entire build of the website. The website was dep
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index page HTM](image here)
-* [Gallery Page HTML](image here)
-* [Cometition Page HTML](image here)
-* [Success Page HTML](image here)
-* [style.css CSS](image here)
+* [Index page HTML](docs\readme-docs\readme-images\validation-home.png)
+* [Gallery Page HTML](docs\readme-docs\readme-images\validation-Gallery.png)
+* [Competition Page HTML](docs\readme-docs\readme-images\validation-win.png)
+* [Success Page HTML](docs\readme-docs\readme-images\validation-success.png)
+* [Style.css CSS](docs\readme-docs\readme-images\validation-css.png)
 
 ### Solved Bugs
 
@@ -202,10 +198,12 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
   * I want to be able to see from the home page what the resort offers. The home page allows visitors to see an outline of all the main features of the resort and has a brief description of them.
   * I want to be able to navigate the site easily and find what I am looking for. All site navigation is through the top navigation bar which is visible on all pages throughout the website.
 
-**Links to images of the sections referred to**
+![Main features of resort](docs\readme-docs\readme-images\park-features.png)
 
 * Returning Visitors
   * I want to to be able to see if there is anything new since my last visit. A new feature section allows visitors to see what has recently been added to the resort and what they can mainly look forward to in the future.
+
+![New Features](docs\readme-docs\readme-images\whats-new.png)
 
 ### Lighthouse
 
