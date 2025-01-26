@@ -78,7 +78,7 @@ p {
 
 .section-heading {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: "Shojumaru";
     color: var(--neon-orange);
     letter-spacing: 2px;
@@ -95,7 +95,6 @@ p {
 nav {
     height: 65px;
     background-color: var(--eternity);
-    background-image: url("assets/images/Woodaged1.png");
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
