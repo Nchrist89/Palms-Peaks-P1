@@ -8,11 +8,11 @@ Palms and Peaks resort is a website which is responsive website which allows vis
 
 ## Introduction
 
-This has been my first website build. I wasn't exactly sure what to build for my website. It took a few days and within that time I had the idea to build a website for a theme park but I had many different idea's and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do.
+This has been my first website build. I wasn't exactly sure what to build for my website. It took a few days to decide and within that time I had the idea to build a website for a theme park but I had many different idea's and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do. I had also been looking into holidays as I've had to combat some problems personally this year so building this website felt like a getaway which I need at the moment.
 
 when thinking of a Tropical resort I had in mind the colour and feel to what has become the final outcome of the project. it's what I had wanted to create. If you know of Crash bandicoot, Some inspiration from Crash cove and the first couple tropical levels gave me some ideas on the feel and vibrancy I wanted.
 
-Unfortunately mid way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I haven't been entirely back to full health since and so I had to slim down the project after taking some time out. I am still happy with the end product. I wanted to build a purely HTML / CSS website and attempt to use flexbox as I wanted to learn that as much as I could before moving on to other technology such as bootstrap which I understand will be used in another upcoming project anyway. There have been many stressfull times on the build but lots of lessons have been learnt. I have had so much fun building this project and along the way I have learnt some improvements I can implement next time. Mainly to do with planning, I would like to fully plan out the coding and structure of the code first I will most likely need.
+Unfortunately mid way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I haven't been entirely back to full health since and so I had to slim down the project after taking some time out. I am still happy with the end product. I wanted to build a purely HTML / CSS website and attempt to use flexbox as I wanted to learn that as much as I could before moving on to other technology such as bootstrap which I understand will be used in another upcoming project anyway. There have been many stressfull times on the build and lots of lessons have been learnt. I have had so much fun building this project, and along the way I have learnt some improvements I can implement next time. Mainly to do with planning, I would like to fully plan out the code and structure of the code I will most likely need first.
 
 Anyways, I hope you have fun checking out my first website!
 
@@ -61,7 +61,7 @@ Initial Planning
 
 When deciding that I would build a resort website with attractions. My scope for the project was very large so the final result wasn't what I had originally planned but I believe it's still good as it stands as a website to gain interest in the reopening of the resort.
 
-Due to the wildlife sanctuary's recent exansion in the past decade, The owner has decided to make some major improvements overall to the resort as a whole. Some of the features already seen in the resort have been improved upon while many new features have been added to the resort. The website is designed to give potential visitors a sneak peak at what they can look forward to at the reopening and a chance to win a family holiday when it reopens in early 2025.
+Due to the wildlife sanctuary's recent exansion in the past decade, The owner has decided to make some major improvements overall to the resort as a whole. Some of the features already seen in the resort have been improved upon while many new features have been added to the resort. The website is designed to give potential visitors a sneak peak at what they can look forward to at the reopening and a chance to win a family holiday when it reopens in early 2025. It is not a full website but as a poster of sort to get attention.
 
 **Key information for the site**
 
@@ -209,7 +209,7 @@ Font Awesome - For the iconography used on the website.
 
 Google Dev Tools - To troubleshoot and test all features on the website. Check and resolve issues with the reponsivity on the website across devices.
 
-Google maps - For the location of the resort on the home page.
+Google maps - For the location of the fictional resort on the home page.
 
 [Prome AI](https://www.promeai.pro/ai-image-generation) - Used for generating the images used in the final project.
 
@@ -272,15 +272,15 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Solved Bugs
 
-1. I had an issue with the home page where I found that the image boxes all had a blank white line beneath them or vertically on the right side causing an issue making them fit correctly. To correct this I had to look online where I found many other people had the same issue and to resolve it used various methods. In the end I used the display Flex method which removed the blank white line.
+1. I had an issue with the home page where I found that the image boxes all had a blank white line beneath them or vertically on the right side causing an issue making them fit correctly. To correct this I had to look online where I found many other people had the same issue. To resolve it used they had used various methods. In the end I used the 'display: flex' method which removed the blank white line.
 
    ![Bug fix 1](docs/readme-docs/readme-images/bugfix1.png)
 
-2. There was an issue with the main feature cards I had created on the home page where the images would not fit correctly when they were adapting to other devices responsively. After looking online and through troubleshooting this issue. I ended up playing around with the options I had available where I found that making the Width of the image 100% to it's container and the height as content-fit. This managed to resolve the issue.
+2. There was an issue with the main feature cards I had created on the home page where the images would not fit correctly when they were adapting to other devices responsively. After looking online and through troubleshooting this issue. I ended up playing around with the options I had available where I found that making the width of the image 100% to it's container and the height as content-fit this managed to resolve the issue.
 
 3. Creating the about section for the park caused me quite a headache. The idea came from the love running training to use 4 text boxes around a central image which is circular. I used some of the knowledge from the tutorial video but in the end it still wasn't how I wanted it visually.
 
-   After asking ChatGPT and explaining what I wanted, It almost supplied code to get it visually correct but after a few hours testing various code supplied. It was never right. So I went back to pen and paper and drew out with borders what I desired. whilst also taking some help from the love running code by ensuring the 2 left and right text boxes were housed in their own div, along with testing I was able to figure out how to do it. After countless hours of failure. It seemed through drawing it with pen and paper allowed me to see what I was unable to before and within 30 minutes I had it figured out.
+   After asking ChatGPT and explaining what I wanted, It almost supplied code to get it visually correct but after a few hours testing various code supplied from ChatGPT, It was never ideal for what I had in mind. So I went back to pen and paper and drew out with borders what I desired. whilst also taking some help from the love running code by ensuring the 2 left and right text boxes were housed in their own div, along with testing I was able to figure out how to do it. After countless hours of failure. It seemed through drawing it with pen and paper allowed me to see what I was unable to before and within 30 minutes I had it figured out.
 
    ![Bug fix 3](docs\readme-docs\readme-images\bugfix3-2.png)
    ![Bug fix 3](docs\readme-docs\readme-images\bugfix3.png)
@@ -289,9 +289,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
    The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challege as I knew I could figure it out.
 
-   ![Bug fix 4 idea](docs\readme-docs\readme-images\bugfix4-vision-for-idea.png)
+   ![Bug fix 4 idea](docs\readme-docs\readme-images\bugfix4-idea.png)
 
-   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. Therefore it was back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 10 different bug fixes just on this one feature.
+   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it visually. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. It was then back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 10 different bug fixes just on this one feature.
 
    ![Bug fix 4](docs\readme-docs\readme-images\bugfix4.png)
    ![Bug fix 4-1](docs\readme-docs\readme-images\bugfix4-1.png)
@@ -408,3 +408,5 @@ I would like to acknowledge the following people who helped me along the way in 
 * Jubril Akolade - My Code Institute mentor
 * Code institute for providing the nessesary tutoring support.
 * My Tutor Rachel Furlong for all assitance provided throughout the journey providing assurance.
+* Coding2go Youtube channel for help creating the navigation / sidebar combo.
+* Kevin Powell for many helpful youtube videos for CSS and HTML.

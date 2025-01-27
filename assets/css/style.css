@@ -43,6 +43,7 @@ p {
 }
 
 .container {
+    margin-top: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -89,7 +90,6 @@ p {
     padding-top: 1rem;
     border-top: 5px solid var(--copper-canyon);
     border-bottom: 5px solid var(--copper-canyon);
-    margin-bottom: 15px;
 }
 
 /* Navigation / sidebar styles */
@@ -207,7 +207,7 @@ nav .fa-solid {
 #welcome-note {
     border: 2px solid var(--copper-canyon);
     background-color: var(--eternity);
-    margin: 25px;
+    margin: 20px;
 }
 
 #success > h1 {
@@ -279,6 +279,7 @@ nav .fa-solid {
 .new-feature img {
     /* applying flex removes vacant line underneath image */
     float: left;
+    /* I have decided to use float as I tried various other ways but nothing was working with the layout shift */
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -376,6 +377,10 @@ nav .fa-solid {
             flex-grow: 1;
 }
 
+#top-margin {
+    margin-top: 15px;
+}
+
 /* map section styles */
 #map-box {
     display: -webkit-box;
@@ -384,6 +389,7 @@ nav .fa-solid {
     /* Flex removes the empty line below the map */
     width: 100%;
     height: 500px;
+    margin-top: 15px;
 }
 
 #map {
@@ -806,8 +812,11 @@ footer {
         margin: 1rem;
     }
 
-    /* Navigation media queries */
+    .new-feature  {
+        width: 300px;
+    }
 
+    /* Navigation media queries */
     nav {
         height: 75px;
         position: fixed;
@@ -851,8 +860,12 @@ footer {
             -ms-flex-direction: row;
                 flex-direction: row;
         max-width: 90%;
+        width: 90%;
     }
 
+    .newf-info > .heading {
+        border-radius: 0px 10px 0 0;
+    }
 
     .newf-info p {
         font-size: 16px;
@@ -870,7 +883,6 @@ footer {
     }
 
     /* Resort feature media queries */
-
     #resort-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -973,15 +985,6 @@ footer {
         margin: 5px;
     }
 
-    /* Competition page media queries */
-    #form-box {
-        margin: 0 50px 25px;
-    }
-
-    #winform > h2 {
-        font-size: 25px;
-    }
-
     /* Gallery page media queries*/
     #photos {
         -webkit-column-count: 4;
@@ -990,6 +993,15 @@ footer {
         -webkit-column-gap: 15px;
            -moz-column-gap: 15px;
                 column-gap: 15px;
+    }
+
+    /* Competition page media queries */
+    #form-box {
+        margin: 0 50px 25px;
+    }
+
+    #winform > h2 {
+        font-size: 25px;
     }
 }
 
