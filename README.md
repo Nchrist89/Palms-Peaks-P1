@@ -201,7 +201,7 @@ Balsamiq - Used to create Wireframes.
 
 Git - For version control.
 
-VS Code - For writing, saving and storing the files used for the website.
+Visual Studio Code - For writing, saving and storing the files used for the website.
 
 Google Fonts - To import fonts used on the website.
 
