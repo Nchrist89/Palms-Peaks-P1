@@ -146,7 +146,7 @@ The website is comprised of four pages. Three of them are accessible from the na
 
   * A banner image showing the sign of Palms and Peaks Resort. This explains straight away to users and what to expect from the website.
 
-   ![Banner](docs/readme-docs/readme-images/palmsandpeaks.png)
+   ![Banner](docs/readme-docs/readme-images/palmspeaks-banner.png)
 
   * A welcome note section to welcome new users to the website.
 
@@ -291,16 +291,21 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
    ![Bug fix 4 idea](docs\readme-docs\readme-images\bugfix4-idea.png)
 
-   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it visually. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. It was then back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 10 different bug fixes just on this one feature.
-
+   Mid way through the process of building this section.
    ![Bug fix 4](docs/readme-docs/readme-images/bugfix4.png)
    ![Bug fix 4-1](docs/readme-docs/readme-images/bugfix4-1.png)
+
+   In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it visually. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. It was then back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 10 different bug fixes just on this one feature. in the end the below shows the final result.
+
+   ![Bug fix 4 - squished](docs/readme-docs/readme-images/bugfix4-squished.png)
 
 5. There have been many other smaller bugs which I came across during the process of building the website which I could reference here too but they didn't take very long to fix or very little research to find out how to resolve but there have been many more than the 4 I have been able to remember now writing this. Next time I will write anything down I believe is worth adding to my next project readme.
 
 ### Known Bugs
 
-   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately due to time constraints I am unable to return to the playground to resolve this issue now and it will have to remain but I have tried to add media queries to rectify as best as I can.
+I feel like I have done okay with ironing out bugs in the project. After checking over the project fully I am happy I have done the best I can resolving the bugs I have had`1.
+
+   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately due to time constraints I am unable to return to the playground to resolve this issue now and it will have to remain but I have tried to add media queries to rectify it as best as I can.
 
 ### Testing User Stories
 
