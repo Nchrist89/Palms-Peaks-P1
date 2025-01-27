@@ -57,7 +57,7 @@ Anyways, I hope you have fun checking out my first website!
 ___
 ## User Experience (UX)
 
-Initial Planning
+**Initial Planning**
 
 When deciding that I would build a resort website with attractions. My scope for the project was very large so the final result wasn't what I had originally planned but I believe it's still good as it stands as a website to gain interest in the reopening of the resort.
 
@@ -104,7 +104,7 @@ This is the colour palette I have used in the website. They were taken from the 
 
 The picture used to pick out my hexcodes used:
 
-   ![Original Palms & Peaks Banner](docs\readme-docs\readme-images\colour-palette-image.png)
+   ![Original Palms & Peaks Banner](docs/readme-docs/readme-images/colour-palette-image.png)
 
 ### Typography
 
@@ -126,11 +126,11 @@ Images for styling purposes such as the navigation bar wooden pattern and headin
 
 Wireframes was used prior to building the website but due to medical issues the project was cut down and therefore the wireframe for this doesn't quite match up but it gives an idea of what I originally wanted planned for the website.
 
-[Desktop Wireframes](docs\readme-docs\readme-images\wireframes-desktop.png)
+[Desktop Wireframes](docs/readme-docs/readme-images/wireframes-desktop.png)
 
-[Tablet Wireframes](docs\readme-docs\readme-images\wireframes-tablet.png)
+[Tablet Wireframes](docs/readme-docs/readme-images/wireframes-tablet.png)
 
-[Mobile Wireframes](docs\readme-docs\readme-images\wireframes-mobile.png)
+[Mobile Wireframes](docs/readme-docs/readme-images/wireframes-mobile.png)
 
 ### Features
 
@@ -138,7 +138,7 @@ The website is comprised of four pages. Three of them are accessible from the na
 
 * All pages on the website have:
 
-  * A responsive navigation bar at the top of the page which allows users to navigate through the website. At the top left of the navigation bar is a logo of a parrot which is circular. Think of this as the mascot for the website which also doubles as a home button when clicked. When viewing the website on mobile devices the navigation bar switches the links to a burger toggler which when clicked opens the navigation links in a sidebar.
+  * A responsive navigation bar at the top of the page which allows users to navigate through the website. At the top left of the navigation bar is a logo of a parrot which is circular. Think of this as the mascot for the website which also doubles as a home button when clicked. When viewing the website on mobile devices the navigation bar links collapse into a burger toggler which when clicked opens the navigation links in a sidebar.
 
   * A footer which contains social media links which all open in a new tab when visited. Icons were used without titles as they are universally recognised.
 
@@ -146,27 +146,27 @@ The website is comprised of four pages. Three of them are accessible from the na
 
   * A banner image showing the sign of Palms and Peaks Resort. This explains straight away to users and what to expect from the website.
 
-   ![Banner](docs\readme-docs\readme-images\palmsandpeaks.png)
+   ![Banner](docs/readme-docs/readme-images/palmsandpeaks.png)
 
   * A welcome note section to welcome new users to the website.
 
-   ![Welcome note](docs\readme-docs\readme-images\welcome-note.png)
+   ![Welcome note](docs/readme-docs/readme-images/welcome-note.png)
 
   * A new features section which shows the user what new and upcoming features will be available to look forward to.
 
-   ![New Features](docs\readme-docs\readme-images\whats-new.png)
+   ![New Features](docs/readme-docs/readme-images/whats-new.png)
 
   * An about us section which includes some information about the resort and its history.
 
-   ![About Resort](docs\readme-docs\readme-images\about-the-resort.png)
+   ![About Resort](docs/readme-docs/readme-images/about-the-resort.png)
 
   * A section which shows an outline of what the resort has to offer visitors. Originally in my website creation these were supposed to link to their own full sections which were on other pages of the website. (Animals, Exploration, Stays, Shops, Rides, Camping, Beach Bars, Activities)
 
-   ![Resort Features](docs\readme-docs\readme-images\park-features.png)
+   ![Resort Features](docs/readme-docs/readme-images/park-features.png)
 
   * A map section which shows the geographical location of the fictional resort which was found using google maps.
 
-   ![Map](docs\readme-docs\readme-images\map.png)
+   ![Map](docs/readme-docs/readme-images/map.png)
 
 * Gallery Page.
 
@@ -264,11 +264,11 @@ Testing was done throughout the entire build of the website. The website was dep
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index page HTML](docs\readme-docs\readme-images\validation-home.png)
-* [Gallery Page HTML](docs\readme-docs\readme-images\validation-Gallery.png)
-* [Competition Page HTML](docs\readme-docs\readme-images\validation-win.png)
-* [Success Page HTML](docs\readme-docs\readme-images\validation-success.png)
-* [Style.css CSS](docs\readme-docs\readme-images\validation-css.png)
+* [Index page HTML](docs/readme-docs/readme-images/validation-home.png)
+* [Gallery Page HTML](docs/readme-docs/readme-images/validation-Gallery.png)
+* [Competition Page HTML](docs/readme-docs/readme-images/validation-win.png)
+* [Success Page HTML](docs/readme-docs/readme-images/validation-success.png)
+* [Style.css CSS](docs/readme-docs/readme-images/validation-css.png)
 
 ### Solved Bugs
 
@@ -282,51 +282,51 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
    After asking ChatGPT and explaining what I wanted, It almost supplied code to get it visually correct but after a few hours testing various code supplied from ChatGPT, It was never ideal for what I had in mind. So I went back to pen and paper and drew out with borders what I desired. whilst also taking some help from the love running code by ensuring the 2 left and right text boxes were housed in their own div, along with testing I was able to figure out how to do it. After countless hours of failure. It seemed through drawing it with pen and paper allowed me to see what I was unable to before and within 30 minutes I had it figured out.
 
-   ![Bug fix 3](docs\readme-docs\readme-images\bugfix3-2.png)
-   ![Bug fix 3](docs\readme-docs\readme-images\bugfix3.png)
+   ![Bug fix 3](docs/readme-docs/readme-images/bugfix3-2.png)
+   ![Bug fix 3](docs/readme-docs/readme-images/bugfix3.png)
 
 4. The new features boxes also caused me hours of trial and error as I worked through multiple bugs while configuring the layout to shift from column to row when the screen resolution exceeded 992px. These feature boxes were originally designed for a stays.html page which is no longer part of the final project.
 
-   The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challege as I knew I could figure it out.
+   The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challege as I knew I could figure it out. Below was the idea which I had in mind.
 
    ![Bug fix 4 idea](docs\readme-docs\readme-images\bugfix4-idea.png)
 
    In order to resolve this I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it visually. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. It was then back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 10 different bug fixes just on this one feature.
 
-   ![Bug fix 4](docs\readme-docs\readme-images\bugfix4.png)
-   ![Bug fix 4-1](docs\readme-docs\readme-images\bugfix4-1.png)
+   ![Bug fix 4](docs/readme-docs/readme-images/bugfix4.png)
+   ![Bug fix 4-1](docs/readme-docs/readme-images/bugfix4-1.png)
 
 5. There have been many other smaller bugs which I came across during the process of building the website which I could reference here too but they didn't take very long to fix or very little research to find out how to resolve but there have been many more than the 4 I have been able to remember now writing this. Next time I will write anything down I believe is worth adding to my next project readme.
 
 ### Known Bugs
 
-   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately due to Medical issues and time constraints I am unable to return to the playground to resolve this issue now and it will have to remain but I have tried to add media queries to rectify as best as I can.
+   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately due to time constraints I am unable to return to the playground to resolve this issue now and it will have to remain but I have tried to add media queries to rectify as best as I can.
 
 ### Testing User Stories
 
 * First Time Visitors
   * I want to be able to see from the home page what the resort offers. The home page allows visitors to see an outline of all the main features of the resort and has a brief description of them.
 
-  ![Main features of resort](docs\readme-docs\readme-images\park-features.png)
+  ![Main features of resort](docs/readme-docs/readme-images/park-features.png)
 
   * I want to be able to navigate the site easily and find what I am looking for. All site navigation is through the top navigation bar which is visible on all pages throughout the website. When viewed on a mobile device the navigation bar collapses into a hambuger icon which can be clicked to pull out a sidebar which includs the navigation links.
 
-  ![Site navigation](docs\readme-docs\readme-images\navbar1.png)
-  ![Sidebar](docs\readme-docs\readme-images\sidebar1.png)
+  ![Site navigation](docs/readme-docs/readme-images/navbar1.png)
+  ![Sidebar](docs/readme-docs/readme-images/sidebar1.png)
 
   * I want to be able to see pictures of the resort, the animals and the rides available in the resort. A gallery has been added to give the resort and animals attention and give the users a feel of the vibrancy and excitement and animals it has housed.
 
-  ![Gallery section](docs\readme-docs\readme-images\gallery.png)
+  ![Gallery section](docs/readme-docs/readme-images/gallery.png)
 
   * I want to be able to find out how I can contact the resort and where it is located. At the bottom of the website users are able to find the contact information in the footer of the page.
 
-  ![Contact information](docs\readme-docs\readme-images\contact-information.png)
+  ![Contact information](docs/readme-docs/readme-images/contact-information.png)
 
 
 * Returning Visitors
   * I want to to be able to see if there is anything new since my last visit. A new feature section allows visitors to see what has recently been added to the resort and what they can mainly look forward to in the future.
 
-   ![New Features](docs\readme-docs\readme-images\whats-new.png)
+   ![New Features](docs/readme-docs/readme-images/whats-new.png)
 
   * After checking availability with family and friends I would like to enter the competition. Competition is available through the main navigation to access.
 
@@ -344,19 +344,19 @@ Suggestions:
 
 Final lighthouse testing
 
-![Home page](docs\readme-docs\readme-images\lighthouse-home.png)
+![Home page](docs/readme-docs/readme-images/lighthouse-home.png)
 
 #### Gallery Page
 
-![Gallery Page](docs\readme-docs\readme-images\lighthouse-gallery.png)
+![Gallery Page](docs/readme-docs/readme-images/lighthouse-gallery.png)
 
 #### Win Page
 
-![Win page](docs\readme-docs\readme-images\lighthouse-win.png)
+![Win page](docs/readme-docs/readme-images/lighthouse-win.png)
 
 #### Success Page
 
-![Success page](docs\readme-docs\readme-images\lighthouse-success.png)
+![Success page](docs/readme-docs/readme-images/lighthouse-success.png)
 
 ### Full Testing
 
