@@ -297,9 +297,9 @@ The W3C validator has been used to validate the HTML on all pages of the website
    ![Bug fix 4](docs/readme-docs/readme-images/bugfix4.png)
    ![Bug fix 4-1](docs/readme-docs/readme-images/bugfix4-1.png)
 
-   To resolve this, I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it visually. Then I had to take it from being horizonal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. It was then back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 15 different bug fixes just on this one feature. in the end the below shows the final result.
+   To resolve this, I branched my repository and used a Training Branch which I would use as a playground to test any new features including this one. After quite a few hours. I managed to have the new feature box how I wanted it visually. Then I had to take it from being horizontal on a large viewing device to mobile and therefore working backwards from what I was originally doing. This then caused further issues when I copied the code over from a styling.css testing stylesheet. It was then back to the playground to retest and find how to move over the code to my final project where it would successfully be responsive. I could write about 15 different bug fixes just on this one feature. in the end the below shows the final result.
 
-   ![Bugfix4-squished](docs/readme-docs/readme-images/bugfix4-squished.png)
+   ![Bugfix4-squished](docs/readme-docs/readme-images/bugfix4-fixed.png)
 
 5. There have been many other smaller bugs which I came across during the process of building the website which I could reference here too but they didn't take very long to fix or very little research to find out how to resolve but there have been many more than the 4 I have been able to remember now writing this. Next time I will write anything down I believe is worth adding to my next project readme.
 
