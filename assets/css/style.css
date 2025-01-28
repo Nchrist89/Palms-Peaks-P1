@@ -370,6 +370,7 @@ nav .fa-solid {
 
 .feature-box {
     background-image: url("../images/leaves-greenbg.png");
+    box-shadow: 5px 5px 5px black;
     width: 350px;
     max-width: 400px;
     -webkit-box-flex: 1;
@@ -576,7 +577,7 @@ nav .fa-solid {
 
 /* Footer content styles */
 #main-content {
-    /* keeps the footer at the nbottom of the success page. */
+    /* keeps the footer at the bottom of the success page. */
     height: 100vh;
 }
 

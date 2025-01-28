@@ -291,7 +291,7 @@ The W3C validator has been used to validate the HTML on all pages of the website
 
    The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challenge as I knew I could figure it out. Below was the idea which I had in mind.
 
-   ![Bug fix 4 idea](docs\readme-docs\readme-images\bugfix4-idea.png)
+   ![Bug fix 4 idea](docs/readme-docs/readme-images/bugfix4-idea.png)
 
    Mid way through the process of building this section.
    ![Bug fix 4](docs/readme-docs/readme-images/bugfix4.png)
