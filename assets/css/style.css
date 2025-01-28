@@ -370,7 +370,6 @@ nav .fa-solid {
 
 .feature-box {
     background-image: url("../images/leaves-greenbg.png");
-    box-shadow: 5px 5px 5px black;
     width: 350px;
     max-width: 400px;
     -webkit-box-flex: 1;
@@ -378,7 +377,7 @@ nav .fa-solid {
             flex-grow: 1;
 }
 
-#top-margin {
+.top-margin {
     margin-top: 15px;
 }
 
@@ -811,10 +810,17 @@ footer {
             flex-basis: 320px;
         border-radius: 10px;
         margin: 1rem;
+        box-shadow: 3px 3px 3px black;
     }
 
     .new-feature  {
         width: 300px;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .left-text-box,
+    .right-text-box {
+        box-shadow: 3px 3px 3px black;
     }
 
     /* Navigation media queries */
@@ -847,6 +853,9 @@ footer {
         margin-top: 70px;
     }
 }
+
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1042,7 +1051,7 @@ footer {
 @media only screen and (min-width: 1400px) {
     #resort-image-box {
         width: 350px;
-        top: 14%;
+        top: 18%;
         left: 37%;
     }
 }

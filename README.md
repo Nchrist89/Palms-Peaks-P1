@@ -8,11 +8,11 @@ Palms and Peaks resort is a website which is responsive website which allows vis
 
 ## Introduction
 
-This has been my first website build. I was not exactly sure what to build for my website. It took a few days to decide and within that time I had the idea to build a website for a theme park but I had too many different ideas and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do. I had also been looking into holidays as I have had to combat some problems personally this year so building this website felt like a getaway which I need.
+This has been my first website build. I was not exactly sure what to build for my website. It took a few days to decide and within that time I had the idea to build a website for a theme park but I had too many different ideas and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do. I had also been looking into holidays as I have had to combat some problems personally this year, so building this website felt like the getaway which I have needed.
 
-when thinking of a Tropical resort I had in mind the colour and feel to what has become the outcome of the project. it is what I had wanted to create. If you know of Crash Bandicoot, inspiration from Crash Cove and the first couple tropical levels gave me some ideas on the feel and vibrancy I wanted.
+When thinking of a Tropical resort, I had in mind the overall colour and feel to what has actually become the outcome of the final project. If you know of Crash Bandicoot, the Playstation 1 game. Inspiration from Crash Cove and the first couple tropical levels, gave me some ideas on the feel and vibrancy I wanted from my project.
 
-Unfortunately, mid-way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I have not been entirely back to full health since and so I had to slim down the project after taking time out. I am still happy with the project. I wanted to build a purely HTML / CSS website and use flexbox as I wanted to learn that at a much deaper level before moving on to other technology such as bootstrap which I understand will be used in another upcoming project. There have been many stressful times on the build and lots of lessons have been learnt. I have had so much fun building this project, and along the way I have learnt some improvements I can implement next time.  Mainly to do with planning, I would like to fully plan out the code and structure of the code I will most likely need first.
+Unfortunately, mid-way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I have not been entirely back to full health since and so I had to slim down the project after taking time out. I am still happy with the project. I wanted to build a purely HTML / CSS website and use Flexbox as I wanted to learn that at a much deeper level before moving on to other technology such as bootstrap, which I understand will be used in another upcoming project. There have been many stressful times on the build and lots of lessons have been learnt. I have had so much fun building this project, and along the way I have learnt some improvements I can implement next time. Mainly to do with planning. I would like to fully plan out the code and the structure of the code first with classes and box layouts.
 
 Anyways, I hope you have fun checking out my first website!
 
@@ -59,7 +59,7 @@ ___
 
 **Initial Planning**
 
-When deciding that I would build a resort website with attractions. My scope for the project was very large so the final result wasn't what I had originally planned but I believe it's still good as it stands as a website to gain interest in the reopening of the resort.
+When deciding that I would build a resort website with attractions. My scope for the project was very large so the final result wasn't what I had originally planned for, but I believe it's still good as it stands, as a website to gain interest in the reopening of the resort.
 
 Due to the wildlife sanctuary's recent expansion in the past decade, The owner has decided to make some major improvements overall to the resort as a whole. Some of the features already seen in the resort have been improved upon while many new features have been added to the resort. The website is designed to give potential visitors a sneak peek at what they can look forward to at the reopening and a chance to win a family holiday when it reopens in early 2025. It is not a full website but as a poster of sort to get attention.
 
@@ -102,15 +102,13 @@ Due to the wildlife sanctuary's recent expansion in the past decade, The owner h
 
 ![Palms and Peaks Website Colour Palette](docs/readme-docs/readme-images/colorpalette.png)
 
-This is the colour palette I have used in the website. They were taken from the original image I was going to use as the main banner for the homepage. The colour palette was created using the [Image Colour Picker](https://imagecolorpicker.com/) website. The website provided different names for the colours so they are Tropical Themed in my website variable names but the hex codes remain the same.
-
-The picture used to pick out my hex codes used:
+This is the colour palette I have used in the website. The colours I have used were taken from the original image I was going to use as the main banner for the homepage which is seen below. The colour palette was created using the [Image Color Picker](https://imagecolorpicker.com/) website. The website used for this palette image is different which has provided different names for the colours. They are Tropical Themed in my website variable names but the hex codes remain the same.
 
    ![Original Palms & Peaks Banner](docs/readme-docs/readme-images/colour-palette-image.png)
 
 ### Typography
 
-When choosing the font I wanted it to feel quirky and tropical and fun. Shojumaru was what I had visioned and straight away I knew it was the font I would use for headings. Klee One was one of many chosen but won the position to take the body text spot for my website.
+When choosing the font, I wanted it to feel quirky, tropical and fun. Shojumaru was what I had envisioned and straight away I knew it was the font I would use for the headings. Klee One was one of many chosen for the body text and it visually looked better than the rest.
 
 Google Fonts has been used for the following fonts:
 
@@ -120,9 +118,9 @@ Google Fonts has been used for the following fonts:
 
 ### Imagery
 
-All images on the homepage of the website have been generated using [Prome AI](https://www.promeai.pro/ai-image-generation) website. Images from the Gallery are from various AI image tools Microsoft Designer, fal.ai, aitubo.ai.
+All images on the homepage of the website have been generated using [Prome AI](https://www.promeai.pro/ai-image-generation) website. Images from the Gallery are from various AI image tools which are Microsoft Designer, fal.ai, aitubo.ai.
 
-Images for styling purposes such as the navigation bar wooden pattern and heading backgrounds was taken from google images.
+Images for styling purposes such as the navigation bar wooden pattern and heading backgrounds was taken from google images which have then been modified with GIMP software.
 
 ### Wireframes
 
@@ -140,9 +138,9 @@ The website is comprised of four pages. Three of them are accessible from the na
 
 * All pages on the website have:
 
-  * A responsive navigation bar at the top of the page which allows users to navigate through the website. At the top left of the navigation bar is a logo of a parrot which is circular. Think of this as the mascot for the website which also doubles as a home button when clicked. When viewing the website on mobile devices the navigation bar links collapse into a burger toggler which when clicked opens the navigation links in a sidebar.
+  * A responsive navigation bar at the top of the page which allows users to navigate through the website. At the top left of the navigation bar is a circular logo of a parrot. Think of this as the mascot for the website, which also doubles as a home button when clicked. When viewing the website on mobile devices the navigation bar links collapse into a burger toggler, which when clicked opens the navigation links in a sidebar.
 
-  * A footer which contains social media links which all open in a new tab when visited. Icons were used without titles as they are universally recognised.
+  * A footer which contains social media links which all open in a new tab when visited. Icons were used without titles as they are universally recognized.
 
 * Home page.
 
@@ -289,7 +287,7 @@ The W3C validator has been used to validate the HTML on all pages of the website
 
 4. The new features boxes also caused me hours of trial and error as I worked through multiple bugs while configuring the layout to shift from column to row when the screen resolution exceeded 992px. These feature boxes was originally designed for a stays.html page which is no longer part of the final project.
 
-   The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challenge as I knew I could figure it out. Below was the idea which I had in mind.
+   The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with Flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challenge as I knew I could figure it out. Below was the idea which I had in mind.
 
    ![Bug fix 4 idea](docs/readme-docs/readme-images/bugfix4-idea.png)
 
@@ -308,6 +306,8 @@ The W3C validator has been used to validate the HTML on all pages of the website
 I feel like I have done okay with ironing out bugs in the project. After checking over the project fully I am happy I have done the best I can resolving the bugs I have had.
 
    1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately, due to time constraints I am unable to return to the playground to resolve this issue now and it will have to remain, but I have tried to add media queries to rectify it as best as I can.
+
+   2. The new feature boxes when shown as a column on devices <992px are both slightly different heights.
 
 ### Testing User Stories
 
