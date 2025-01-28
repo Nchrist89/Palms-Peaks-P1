@@ -10,7 +10,7 @@ Palms and Peaks resort is a website which is responsive website which allows vis
 
 This has been my first website build. I was not exactly sure what to build for my website. It took a few days to decide and within that time I had the idea to build a website for a theme park but I had too many different ideas and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do. I had also been looking into holidays as I have had to combat some problems personally this year so building this website felt like a getaway which I need.
 
-when thinking of a Tropical resort I had in mind the colour and feel to what has become the outcome of the project. it is what I had wanted to create. If you know of Crash bandicoot, inspiration from Crash cove and the first couple tropical levels gave me some ideas on the feel and vibrancy I wanted.
+when thinking of a Tropical resort I had in mind the colour and feel to what has become the outcome of the project. it is what I had wanted to create. If you know of Crash Bandicoot, inspiration from Crash Cove and the first couple tropical levels gave me some ideas on the feel and vibrancy I wanted.
 
 Unfortunately, mid-way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I have not been entirely back to full health since and so I had to slim down the project after taking time out. I am still happy with the project. I wanted to build a purely HTML / CSS website and use flexbox as I wanted to learn that at a much deaper level before moving on to other technology such as bootstrap which I understand will be used in another upcoming project. There have been many stressful times on the build and lots of lessons have been learnt. I have had so much fun building this project, and along the way I have learnt some improvements I can implement next time.  Mainly to do with planning, I would like to fully plan out the code and structure of the code I will most likely need first.
 
@@ -395,6 +395,7 @@ Responsiveness.
 ### Code used
 
 * [Create responsive Navbar and sidebar](https://www.youtube.com/watch?v=8eFeIFKAKHw)
+
 * Some code has been autocompleted with the help of AI Copilot. This was turned off mid project as it was too helpful and I wanted to write more myself.
 * I have had many helpful tips from watching Kevin Powell on YouTube.
 
