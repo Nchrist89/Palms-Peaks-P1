@@ -365,9 +365,9 @@ Final lighthouse testing
 
 ### Full Testing
 
-To fully test my website I performed the following testing on a couple devices. Family and friends’ mobiles and different browsers on my own machine.
+To fully test my website I performed the following testing on a couple devices. Family and friends’ mobiles, Android phones and Apple iPhones. I have tested the website on various internet browsers such as Microsoft Edge, Mozilla Firefox, OperaGX and Google Chrome. Each browser had no issues with any element or styling issues that I had noticed. The responsiveness worked as expected, with no issues showing the layouts as intended through all different media queries.
 
-I also went through each page using Chrome Developer Tools to ensure that each page is responsive on all different screen sizes.
+I also went through each page using Chrome Developer Tools to ensure that each page is responsive on all different screen sizes
 
 Links.
 
