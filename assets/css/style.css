@@ -86,7 +86,7 @@ p {
     letter-spacing: 2px;
     background-color: var(--eternity);
     padding-bottom: 1rem;
-    text-shadow: var(--eternity) 5px 5px 5px;
+    text-shadow: black 5px 5px 5px;
     padding-top: 1rem;
     border-top: 5px solid var(--copper-canyon);
     border-bottom: 5px solid var(--copper-canyon);
@@ -555,6 +555,11 @@ nav .fa-solid {
     font-size: 18px;
     font-family: "Shojumaru";
     letter-spacing: 2px;
+}
+
+#submit-btn:hover {
+    background-color: var(--neon-orange);
+    color: var(--eternity);
 }
 
 .terms-container {

@@ -305,7 +305,8 @@ The W3C validator has been used to validate the HTML on all pages of the website
 
 I feel like I have done okay with ironing out bugs in the project. After checking over the project fully I am happy I have done the best I can resolving the bugs I have had.
 
-   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately, due to time constraints I am unable to return to the playground to resolve this issue now and it will have to remain, but I have added media queries to rectify it as best as I can.
+   1. The about section has a minor bug which means that the image box moves slightly when dragging the screen size to make it larger. Unfortunately, due to time constraints I am unable to return to the playground to resolve this issue now and it will have to remain, but I have added media queries to rectify it as best as I can. I tried to centre the image within the container but I didn't have that much time to get it perfect as I had to move on to get the project completed.
+   2. I have tested the form some more to find that there are quite a few devices where the form doesn't quite fit the screen size correctly. The majority are fine but anything below <400px seems to have issues, I will put more work into getting my form right in my next project.
 
 ### Testing User Stories
 
@@ -399,7 +400,7 @@ Responsiveness.
 
 ### Content
 
-Content for the website has solely been created by myself and with the assistance of ChatGPT, Sider (AI chrome extension). Some content had been autocompleted by Co-pilot AI add-on for Visual Studio Code, I had turned this off part the way through the project as it was being too helpful and I wanted to write most of the code myself for learning. Some of the information it had autocompleted as it knew what I was going to write in my code from my previous history of code.
+Content for the website has solely been created by myself and with the assistance of ChatGPT, Sider (AI chrome extension). Some content had been autocompleted by Co-pilot AI add-on for Visual Studio Code, I had turned this off part the way through the project as it was being too helpful and I wanted to write most of the code myself for learning. Some of the information it had autocompleted as it knew what I was going to write in my code from my previous history of code within this project.
 
 ### Media
 
