@@ -10,9 +10,11 @@ Palms and Peaks resort is a website which is responsive website which allows vis
 
 This has been my first website build. I was not exactly sure what to build for my website. It took a few days to decide and within that time I had the idea to build a website for a theme park but I had too many different ideas and thought a resort would allow me to include what I had envisioned which was a tropical amusement park with accommodation, rides and many fun activities to do. I had also been looking into holidays as I have had to combat some problems personally this year, so building this website felt like the getaway which I have needed.
 
-When thinking of a Tropical resort, I had in mind the overall colour and feel to what has actually become the outcome of the final project. If you know of Crash Bandicoot, the Playstation 1 game. Inspiration from Crash Cove and the first couple tropical levels, gave me some ideas on the feel and vibrancy I wanted from my project.
+When thinking of a Tropical resort. I had in mind what I wanted and If you know of Crash Bandicoot, the Playstation 1 game. Inspiration from Crash Cove and the first couple tropical levels, gave me some ideas on the feel and vibrancy I wanted from my project.
 
-Unfortunately, mid-way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I have not been entirely back to full health since and so I had to slim down the project after taking time out. I am still happy with the project. I wanted to build a purely HTML / CSS website and use Flexbox as I wanted to learn that at a much deeper level before moving on to other technology such as bootstrap, which I understand will be used in another upcoming project. There have been many stressful times on the build and lots of lessons have been learnt. I have had so much fun building this project, and along the way I have learnt some improvements I can implement next time. Mainly to do with planning. I would like to fully plan out the code and the structure of the code first with classes and box layouts.
+Unfortunately, mid-way through the project I had to stop the build due to medical issues which have affected me since early June, being in hospital in July. I have not been entirely back to full health since and so I had to slim down the project after taking time out. I am still happy with the project. I wanted to build a purely HTML / CSS website and use Flexbox as I wanted to learn that at a much deeper level before moving on to other technology such as bootstrap, which I understand will be used in another upcoming project.
+
+There have been many stressful times on the build and lots of lessons have been learnt. I have had so much fun building this project, and along the way I have learnt some improvements I can implement next time. Mainly to do with planning. I would like to fully plan out the code and the structure of the code first with classes and box layouts.
 
 Anyways, I hope you have fun checking out my first website!
 
@@ -92,7 +94,7 @@ Due to the wildlife sanctuary's recent expansion in the past decade, The owner h
 
 **Returning visitor goals**
 
-* I would like to see if there has been anything recently added to the resort’s new features prior to the reopening.
+* I would like to see if there has been anything recently added to the resort's new features prior to the reopening.
 * I would like to contact the resort and pre-plan a visit to the resort.
 * After checking availability with family and friends I would like to enter the competition.
 
@@ -108,7 +110,7 @@ This is the colour palette I have used in the website. The colours I have used w
 
 ### Typography
 
-When choosing the font, I wanted it to feel quirky, tropical and fun. Shojumaru was what I had envisioned and straight away I knew it was the font I would use for the headings. Klee One was one of many chosen for the body text and it visually looked better than the rest.
+When choosing the font, I wanted it to feel quirky, tropical and fun. Shojumaru font was what I had envisioned and straight away I knew it was the font I would use for the headings. Klee One was one of many chosen for the body text and it visually looked better than the rest.
 
 Google Fonts has been used for the following fonts:
 
@@ -170,7 +172,7 @@ The website is comprised of four pages. Three of them are accessible from the na
 
 * Gallery Page.
 
-  * The gallery page shows a selection of images which show the resort, some animals and the park itself. All of the images were designed using AI. Some of which were to be used in the final project and I didn't want to not use them somewhere. Many hours went into getting many images the way I wanted.
+  * The gallery page shows a selection of images which show the resort, some animals, rides, and the park itself. All of the images were designed using AI. Some of which were to be used in the final project and I didn't want to not use them somewhere. Many hours went into getting many images the way I wanted.
 
 * Win page.
 
@@ -182,7 +184,7 @@ The website is comprised of four pages. Three of them are accessible from the na
 
 ### Accessibility
 
-I have throughout the project ensured that the website has been accessibility friendly as possible. This has been achieved by:
+I have throughout the project ensured that the website has been accessibility friendly. This has been achieved by:
 
 * Using semantic HTML
 * Using descriptive alt attributes on images on the site.
@@ -285,9 +287,9 @@ The W3C validator has been used to validate the HTML on all pages of the website
    ![Bug fix 3](docs/readme-docs/readme-images/bugfix3-2.png)
    ![Bug fix 3](docs/readme-docs/readme-images/bugfix3.png)
 
-4. The new features boxes also caused me hours of trial and error as I worked through multiple bugs while configuring the layout to shift from column to row when the screen resolution exceeded 992px. These feature boxes was originally designed for a stays.html page which is no longer part of the final project.
+4. The new features boxes also caused me hours of trial and error as I worked through multiple bugs while configuring the layout to shift from column to row when the screen resolution exceeded 992px. These feature boxes were originally designed for a stays.html page which is no longer part of the final project.
 
-   The new feature box design had to show an image of the new feature, and by the side of it all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with Flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challenge as I knew I could figure it out. Below was the idea which I had in mind.
+   The new feature box design had to show an image of the new feature, and by the side of it, all the information about that new feature. The heading, the information and additional features were to show vertically but also stretched across the screen when viewing on a larger screen >992px and to switch to a row direction with Flexbox. In order to do this, I had searched the internet but couldn't quite explain how I wanted it to look and after much searching, in the end I thought doing this myself would be a challenge as I knew I could figure it out. Below was the idea which I had in mind. It turned out that although the layout as a whole was switching from a column to a row direction, the new feature information itself had to remain as column so it would correctly show had I wanted it to. This took a lot longer to figure out what I was doing wrong and by chance after playing around for quite a while I managed to get it right. It was like magic when it just happened. I was really proud to get this figured out.
 
    ![Bug fix 4 idea](docs/readme-docs/readme-images/bugfix4-idea.png)
 
@@ -345,8 +347,8 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 Suggestions:
 
-1. reduce image file sizes in bytes by converting to WebP format.
-2. resizing the image itself to properly accommodate the size it requires (width and height).
+1. Reduce image file sizes in bytes by converting to WebP format.
+2. Resizing the image itself to properly accommodate the size it requires (width and height).
 
 Final lighthouse testing
 
@@ -366,28 +368,29 @@ Final lighthouse testing
 
 ### Full Testing
 
-To fully test my website I performed the following testing on a couple devices. Family and friends’ mobiles, Android phones and Apple iPhones. I have tested the website on various internet browsers such as Microsoft Edge, Mozilla Firefox, OperaGX and Google Chrome. Each browser had no issues with any element or styling issues that I had noticed. The responsiveness worked as expected, with no issues showing the layouts as intended through all different media queries.
+To fully test my website I performed the following testing on a couple devices. Family and friends' mobiles, Android phones and Apple iPhones. I have tested the website on various internet browsers such as Microsoft Edge, Mozilla Firefox, OperaGX and Google Chrome. Each browser had no issues with any element or styling issues that I had noticed. The responsiveness worked as expected, with no issues showing the layouts as intended through all different media queries.
 
 I also went through each page using Chrome Developer Tools to ensure that each page is responsive on all different screen sizes
 
 Links.
 
-1. Tested each link on the index page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
-2. Tested each link on the gallery page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
-3. Tested each link on the gallery page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
-4. Tested each link on the win page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
-5. Tested each link on the success page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
+1. I tested each link on the index page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
+2. I tested each link on the gallery page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
+3. I tested each link on the gallery page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
+4. I tested each link on the win page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
+5. I tested each link on the success page. Each link worked as expected and any links leading to external pages opened correctly in a separate tab.
 
 Competition Form.
 
 1. Testing the competition form. I tried to submit the form without filling any input fields. The form worked correctly and directed users to fill in the empty title field which are radio buttons. I then filled this in and continued to the First Name field.
 2. leaving all other fields empty, again it pointed out the First Name field was empty and needed to be input.
 3. I then followed this onward through the form for each field and was successfully hit with the notification that the next field had not been input and could not be left empty.
+4. advice was provided by my mentor to use a pattern which would ensure that field with whitespace would not be accepted and therefore I found the necessary patterns I needed for the types I had in my form and had added them in.
 
 Responsiveness.
 
 1. I have assessed the responsiveness of the website from the very beginning of the development and tried to ensure that the entire website is responsive throughout the build.
-2. I have evaluated using friends and families own devices and also sent the Github pages link to multiple friends and family to request them to test on their devices. I have had some issues on some devices, but most have been fine. Usually, it comes down to the breakpoints being slightly different on some devices. I have tried my best to make sure it looks fine without causing the layout to break on other devices while fixing the ones I have tried.
+2. I have evaluated using friends and families own devices and also sent the Github pages link to multiple friends and family to request them to test on their devices. I have had some issues on some devices, but most have been fine. Usually, it comes down to the breakpoints being slightly different on some devices. I have tried my best to make sure it looks fine without causing the layout to break on other devices while fixing the ones I have tried. One issue I have noticed on a friends iPhone I tested is the banner image which doesn't correctly show but apart from that device I didn't notice the banner had any visual issues on other devices apart from when on a really large monitor and it stretches.
 
 ## Credits
 
