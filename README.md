@@ -267,7 +267,7 @@ Testing has been conducted throughout the entire build of the website. The websi
 The W3C validator has been used to validate the HTML on all pages of the website. It has also been used to validate CSS in the style.css file.
 
 * [Index page HTML](docs/readme-docs/readme-images/validation-home.png)
-* [Gallery Page HTML](docs/readme-docs/readme-images/validation-Gallery.png)
+* [Gallery Page HTML](docs/readme-docs/readme-images/validation-gallery.png)
 * [Competition Page HTML](docs/readme-docs/readme-images/validation-win.png)
 * [Success Page HTML](docs/readme-docs/readme-images/validation-success.png)
 * [Style.css CSS](docs/readme-docs/readme-images/validation-css.png)
